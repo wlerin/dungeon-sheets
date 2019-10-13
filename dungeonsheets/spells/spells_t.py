@@ -7,7 +7,7 @@ class TashasHideousLaughter(Spell):
     target must succeed on a Wisdom saving throw or fall prone, becoming 
     incapacitated and unable to stand up for the duration. A creature with an 
     Intelligence score of 4 or less isn't affected.
-    
+
     At the end of each of its 
     turns, and each time it takes damage, the target can make another Wisdom saving 
     throw. The target has advantage on the saving throw ifit's triggered by damage. 
@@ -33,7 +33,7 @@ class Telekinesis(Spell):
      the appropriate effect below. You can affect the same target round after round,
      or choose a new one at any time. If you switch targets, the prior target is no 
     longer affected by the spell.
-    
+
     Creature
     You can try to move a Huge or smaller 
     creature. Make an ability check with your spellcasting ability contested by the 
@@ -44,7 +44,7 @@ class Telekinesis(Spell):
     On 
     subsequent rounds, you can use your action to attempt to maintain your 
     telekinetic grip on the creature by repeating the contest.
-    
+
     Object
     You can try 
     to move an object that weighs up to 1,000 pounds. If the object isn't being worn
@@ -77,8 +77,8 @@ class Telepathy(Spell):
     you are familiar.
     The creature can be anywhere on the same plane of existence as
      you. The spell ends if you or the target are no longer on the same plane.
-    
-    
+
+
     Until the spell ends, you and the target can instantaneously share words, 
     images, sounds, and other sensory messages with one another through the link, 
     and the target recognizes you as the creature it is communicating with. The 
@@ -104,12 +104,12 @@ class Teleport(Spell):
      range, to a destination you select. If you target an object, it must be able to
      fit entirely inside a 10-foot cube, and it can't be held or carried by an 
     unwilling creature.
-    
+
     The destination you choose must be known to you, and it 
     must be on the same plane of existence as you. Your familiarity with the 
     destination determines whether you arrive there successfully. The DM rolls d100 
     and consults the table.
-    
+
     =================  ======  ============  ==========  =========
     Familiarity        Mishap  Similar Area  Off Target  On Target
     =================  ======  ============  ==========  =========
@@ -138,13 +138,13 @@ class Teleport(Spell):
     "False destination" is a place that doesn't exist. Perhaps you tried
      to scry an enemy's sanctum but instead viewed an illusion, or you are 
     attempting to teleport to a familiar location that no longer exists.
-    
+
     On Target
-    
+
     You and your group (or the target object) appear where you want to.
-    
+
     Off Target
-    
+
     You and your group (or the target object) appear a random distance away from the
      destination in a random direction. Distance off target is 1d10 x 1d10 percent 
     of the distance that was to be traveled. For example, if you tried to travel 120
@@ -153,7 +153,7 @@ class Teleport(Spell):
     target randomly by rolling a d8 and designating 1 as north, 2 as northeast, 3 as
      east, and so on around the points of the compass. If you were teleporting to a 
     coastal city and wound up 18 miles out at sea, you could be in trouble.
-    
+
     Similar
      Area
     You and your group (or the target object) wind up in a different area 
@@ -163,7 +163,7 @@ class Teleport(Spell):
     implements as your laboratory. Generally, you appear in the closest similar 
     place, but since the spell has no range limit, you could conceivably wind up 
     anywhere on the plane.
-    
+
     Mishap
     The spell's unpredictable magic results in a 
     difficult journey. Each teleporting creature (or the target object) takes 3d10 
@@ -191,7 +191,7 @@ class TeleportationCircle(Spell):
     and remains open until the end of your next turn. Any creature that enters the 
     portal instantly appears within 5 feet of the destination circle or in the 
     nearest unoccupied space if that space is occupied.
-    
+
     Many major temples, guilds,
      and other important places have permanent teleportation circles inscribed 
     somewhere within their confines. Each such circle includes a unique sigil 
@@ -200,7 +200,7 @@ class TeleportationCircle(Spell):
      destinations on the Material Plane, determined by the DM. You can learn 
     additional sigil sequences during your adventures. You can commit a new sigil 
     sequence to memory after studying it for 1 minute.
-    
+
     You can create a permanent 
     teleportation circle by casting this spell in the same location every day for 
     one year. You need not use the circle to teleport when you cast the spell in 
@@ -223,7 +223,7 @@ class TempleOfTheGods(Spell):
      The temple must fit within an unoccupied cube of space, up to 120 feet on each 
     side. The temple remains until the spell ends. It is dedicated to whatever god, 
     pantheon, or philosophy is represented by the holy symbol used in the casting.
-    
+
     You make all decisions about the temple's appearance. The interior is enclosed 
     by a floor, walls, and a roof, with one door granting access to the interior and
      as many windows as you wish. Only you and any creatures you designate when you 
@@ -274,14 +274,14 @@ class TensersFloatingDisk(Spell):
     The disk remains for the duration, 
     and can hold up to 500 pounds. If more weight is placed on it, the spell ends, 
     and everything on the disk falls to the ground.
-    
+
     The disk is immobile while you 
     are within 20 feet of it. If you move more than 20 feet away from it, the disk 
     follows you so that it remains within 20 feet of you. It can more across uneven 
     terrain, up or down stairs, slopes and the like, but it can't cross an elevation
      change of 10 feet or more. For example, the disk can't move across a 10-foot-
     deep pit, nor could it leave such a pit if it was created at the bottom.
-    
+
     If you
      move more than 100 feet from the disk (typically because it can't move around 
     an obstacle to follow you), the spell ends.
@@ -316,7 +316,7 @@ class TensersTransformation(Spell):
     - You can attack twice, instead of once, when you 
     take the Attack action on your turn. You ignore this benefit if you already have
      a feature, like Extra Attack, that gives you extra attacks.
-    
+
     Immediately after 
     the spell ends, you must succeed on a DC 15 Constitution saving throw or suffer 
     one level of exhaustion.
@@ -336,7 +336,7 @@ class TensersTransformation(Spell):
 class Thaumaturgy(Spell):
     """You manifest a minor wonder, a sign of supernatural power, within range. You 
     create one of the following magical effects within range:
-    
+
     * Your voice booms up
      to three times as loud as normal for 1 minute.
     * You cause flames to flicker, 
@@ -350,7 +350,7 @@ class Thaumaturgy(Spell):
     window to fly open or slam shut.
     * You alter the appearance of your eyes for 1 
     minute.
-    
+
     If you cast this spell multiple times, you can have up to three of its 
     1-minute effects active at a time, and you can dismiss such an effect as an 
     action.
@@ -372,8 +372,8 @@ class ThornWhip(Spell):
     command toward a creature in range. Make a melee spell attack against the 
     target. If the attack hits, the creature takes 1d6 piercing damage, and if the 
     creature is Large or smaller, you pull the creature up to 10 feet closer to you.
-    
-    
+
+
     At Higher Levels: This spell's damage increases by 1d6 when you reach 5th 
     level (2d6), 11th level (3d6), and 17th level (4d6).
     """
@@ -402,7 +402,7 @@ class ThunderStep(Spell):
      you cast this spell, and there must be an unoccupied space within 5 feet of 
     your destination space for the creature to appear in; otherwise, the creature is
      left behind.
-    
+
     At Higher Levels: When you cast this spell using a spell slot of 
     4th level or higher, the damage increases by 1d10 for each slot level above 3rd.
     """
@@ -464,12 +464,12 @@ class Thunderwave(Spell):
     originating from you must make a Constitution saving throw. On a failed save, a 
     creature takes 2d8 thunder damage and is pushed 10 feet away from you. On a 
     successful save, the creature takes half as much damage and isn't pushed.
-    
+
     In 
     addition, unsecured objects that are completely within the area of effect are 
     automatically pushed 10 feet away from you by the spell's effect, and the spell 
     emits a thunderous boom audible out to 300 feet.
-    
+
     At Higher Levels: When you 
     cast this spell using a spell slot of 2nd level or higher, the damage increases 
     by 1d8 for each slot level above 1st.
@@ -511,7 +511,7 @@ class TimeStop(Spell):
     """You briefly stop the flow of time for everyone but yourself. No time passes for 
     other creatures, while you take 1d4 + 1 turns in a row, during which you can use
      actions and move as normal.
-    
+
     This spell ends if one of the actions you use 
     during this period, or any effects that you create during this period, affects a
      creature other than you or an object being worn or carried by someone other 
@@ -547,7 +547,7 @@ class TinyServant(Spell):
     complete.
     When the creature drops to 0 hit points, it reverts to its original 
     form, and any remaining damage carries over to that form.
-    
+
     At Higher Levels: 
     When you cast this spell using a spell slot of 4th level or higher, you can 
     animate two additional objects for each slot level above 3rd.
@@ -671,8 +671,8 @@ class TreeStride(Spell):
     those trees or step out of the tree you're in. You appear in a spot of your 
     choice within 5 feet of the destination tree, using another 5 feet of movement. 
     If you have no movement left, you appear within 5 feet of the tree you entered.
-    
-    
+
+
     You can use this transportation ability once per round for the duration. You 
     must end each turn outside a tree.
     """
@@ -695,11 +695,11 @@ class TruePolymorph(Spell):
     another creature). The transformation lasts for the duration, or until the 
     target drops to 0 hit points or dies. If you concentrate on this spell for the 
     full duration, the transformation becomes permanent.
-    
+
     Shapechangers aren't 
     affected by this spell. An unwilling creature can make a Wisdom saving throw, 
     and if it succeeds, it isn't affected by this spell.
-    
+
     Creature into Creature
     If 
     you turn a creature into another kind of creature, the new form can be any kind 
@@ -720,7 +720,7 @@ class TruePolymorph(Spell):
     The target's gear melds into the new form. 
     The creature can't activate, use, wield, or otherwise benefit from any of its 
     equipment.
-    
+
     Object into Creature
     You can turn an object into any kind of 
     creature, as long as the creature's size is no larger than the object's size and
@@ -731,14 +731,14 @@ class TruePolymorph(Spell):
     If the spell becomes permanent, you no longer control
      the creature. It might remain friendly to you, depending on how you have 
     treated it.
-    
+
     Creature into Object
     If you turn a creature into an object, it 
     transforms along with whatever it is wearing and carrying into that form. The 
     creature's statistics become those of the object, and the creature has no memory
      of time spent in this form, after the spell ends and it returns to its normal 
     form.
-    
+
     This spell can't affect a target that has 0 hit points.
     """
     name = "True Polymorph"
@@ -757,12 +757,12 @@ class TrueResurrection(Spell):
     """You touch a creature that has been dead for no longer than 200 years and that 
     died for any reason except old age. If the creature's soul is free and willing, 
     the creature is restored to life with all its hit points.
-    
+
     This spell closes all
      wounds, neutralizes any poison, cures all diseases, and lifts any curses 
     affecting the creature when it died. The spell replaces damaged or missing 
     organs or limbs.
-    
+
     The spell can even provide a new body if the original no 
     longer exists, in which case you must speak the creature's name. The creature 
     then appears in an unoccupied space you choose within 10 feet of you.
@@ -819,11 +819,11 @@ class Tsunami(Spell):
     """A wall of water springs into existence at a point you choose within range. You 
     can make the wall up to 300 feet long, 300 feet high, and 50 feet thick. The 
     wall lasts for the duration.
-    
+
     When the wall appears, each creature within its 
     area must make a Strength saving throw. On a failed save, a creature takes 6d10 
     bludgeoning damage, or half as much damage on a successful save.
-    
+
     At the start 
     of each of your turns after the wall appears, the wall, along with any creatures
      in it, moves 50 feet away from you. Any Huge or smaller creature inside the 
@@ -832,7 +832,7 @@ class Tsunami(Spell):
     only once per round. At the end of the turn, the wall's height is reduced by 50 
     feet, and the damage creatures take from the spell on subsequent rounds is 
     reduced by 1d10. When the wall reaches 0 feet in height, the spell ends.
-    
+
     A 
     creature caught in the wall can move by swimming. Because of the force of the 
     wave, though, the creature must make a successful Strength (Athletics) check 
@@ -849,5 +849,3 @@ class Tsunami(Spell):
     ritual = False
     magic_school = "Conjuration"
     classes = ('Druid',)
-
-

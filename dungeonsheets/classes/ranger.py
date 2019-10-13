@@ -73,7 +73,7 @@ class GloomStalker(SubClass):
             if self.level >= lvl:
                 spells.extend(sps)
         return spells
-    
+
     @property
     def spells_prepared(self):
         return self.spells_known
@@ -112,7 +112,7 @@ class HorizonWalker(SubClass):
             if self.level >= lvl:
                 spells.extend(sps)
         return spells
-    
+
     @property
     def spells_prepared(self):
         return self.spells_known
@@ -149,7 +149,7 @@ class MonsterSlayer(SubClass):
             if self.level >= lvl:
                 spells.extend(sps)
         return spells
-    
+
     @property
     def spells_prepared(self):
         return self.spells_known
@@ -224,7 +224,7 @@ class BeastConclave(SubClass):
     features_by_level[7] = [features.BeastsDefense]
     features_by_level[11] = [features.StormOfClawsAndFangs]
     features_by_level[15] = [features.SuperiorBeastsDefense]
-    
+
 
 class HunterConclave(SubClass):
     """Some rangers seek to master weapons to better protect civilization from the
@@ -241,7 +241,7 @@ class HunterConclave(SubClass):
     features_by_level[7] = [features.DefensiveTactics]
     features_by_level[11] = [features.MultiattackRanger]
     features_by_level[15] = [features.SuperiorHuntersDefense]
-    
+
 
 class DeepStalkerConclave(SubClass):
     """Most folk descend into the depths of the Underdark only under the most
@@ -292,4 +292,3 @@ class RevisedRanger(Ranger):
     features_by_level[18] = [features.FeralSenses]
     features_by_level[20] = [features.FoeSlayer]
     subclasses_available = (BeastConclave, HunterConclave, DeepStalkerConclave)
-    

@@ -74,7 +74,7 @@ class CloakOfBillowing(MagicItem):
     """
     name = "Cloak of Billowing"
     rarity = "Common"
-    
+
 
 class CapeOfTheMountebank(MagicItem):
     """This cape smells faintly of brimstone. While wearing it, you can use it to
@@ -137,7 +137,7 @@ class CoinsOfCommunication(MagicItem):
     name = "Coins of Communication"
     rarity = "Uncommon"
 
-    
+
 class FlameTongue(MagicItem):
     """You can use a Bonus Action to speak this magic sword's Command Word, causing
     flames to erupt from the blade. These flames shed bright light in a 40-foot
@@ -185,7 +185,7 @@ class AmuletOfTheEel(MagicItem):
     """While holding this amulet, you can breath water and air, and have a
     swimming speed of 20'."""
     name = "Amulet of the Eel"
-    
+
 
 class BracersOfMagnetism(MagicItem):
     """When wearing these bracers, you can use a bonus action to speak their

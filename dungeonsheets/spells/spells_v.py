@@ -7,7 +7,7 @@ class VampiricTouch(Spell):
     hit, the target takes 3d6 necrotic damage, and you regain hit points equal to 
     half the amount of necrotic damage dealt. Until the spell ends, you can make the
      attack again on each of your turns as an action.
-    
+
     At Higher Levels: When you 
     cast this spell using a spell slot of 4th level or higher, the damage increases 
     by 1d6 for each slot level above 3rd.
@@ -31,7 +31,7 @@ class ViciousMockery(Spell):
     understand you), it must succeed on a Wisdom saving throw or take 1d4 psychic 
     damage and have disadvantage on the next attack roll it makes before the end of 
     its next turn.
-    
+
     At Higher Levels: This spell's damage increases by 1d4 when you 
     reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).
     """
@@ -54,7 +54,7 @@ class VitriolicSphere(Spell):
     creature takes 10d4 acid damage and another 5d4 acid damage at the end of its 
     next turn. On a successful save, a creature takes half the initial damage and no
      damage at the end of its next turn.
-    
+
     At Higher Levels: When you cast this spell
      using a spell slot of 5th level or higher, the initial damage increases by 2d4 
     for each slot level above 4th.
@@ -69,5 +69,3 @@ class VitriolicSphere(Spell):
     ritual = False
     magic_school = "Evocation"
     classes = ('Sorcerer', 'Wizard')
-
-

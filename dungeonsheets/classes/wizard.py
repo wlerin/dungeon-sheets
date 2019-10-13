@@ -152,7 +152,7 @@ class Transmutation(SubClass):
 # SCAG
 class Bladesinging(SubClass):
     """**Restriction: Elves Only**
-    
+
     Bladesingers are elves who bravely defend their people and lands. They are
     elf wizards who master a school of sword fighting grounded in a tradition
     of arcane magic. In combat, a bladesinger uses a series of intricate,
@@ -164,7 +164,7 @@ class Bladesinging(SubClass):
     _proficiencies_text = ('light armor',)
     skill_proficiencies = ('performance',)
     features_by_level = defaultdict(list)
-    features_by_level[2] = [features.Bladesong,]
+    features_by_level[2] = [features.Bladesong, ]
     features_by_level[6] = [features.ExtraAttackBladesinging]
     features_by_level[10] = [features.SongOfDefense]
     features_by_level[14] = [features.SongOfVictory]
@@ -246,5 +246,3 @@ class Wizard(CharClass):
         19: (5, 4, 3, 3, 3, 3, 2, 1, 1, 1),
         20: (5, 4, 3, 3, 3, 3, 2, 2, 1, 1),
     }
-
-    

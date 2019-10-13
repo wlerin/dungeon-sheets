@@ -29,7 +29,7 @@ class ZoneOfTruth(Spell):
      turn there must make a Charisma saving throw. On a failed save, a creature 
     can't speak a deliberate lie while in the radius. You know whether each creature
      succeeds or fails on its saving throw.
-    
+
     An affected creature is aware of the 
     spell and can thus avoid answering questions to which it would normally respond 
     with a lie. Such creatures can be evasive in its answers as long as it remains 
@@ -45,5 +45,3 @@ class ZoneOfTruth(Spell):
     ritual = False
     magic_school = "Enchantment"
     classes = ('Bard', 'Cleric', 'Paladin')
-
-

@@ -3,7 +3,7 @@ class Shield():
     name = "Shield"
     cost = "10 gp"
     base_armor_class = 2
-    
+
     def __str__(self):
         return self.name
 
@@ -13,11 +13,11 @@ class Shield():
     @classmethod
     def improved_version(cls, bonus):
         bonus = int(bonus)
-        
+
         class NewShield(cls):
             name = f'+{bonus} ' + cls.name
             base_armor_class = cls.base_armor_class + bonus
-            
+
         return NewShield
 
 
@@ -35,14 +35,14 @@ class NoShield(Shield):
     name = "No shield"
     cost = "0"
     base_armor_class = 0
-    
+
     def __str__(self):
         return self.name
 
 
 class Armor():
     """A piece of armor that can be worn.
-    
+
     Attributes
     ----------
     name : str
@@ -62,7 +62,7 @@ class Armor():
       light, medium, or heavy
     weight : int
       In lbs.
-    
+
     """
     name = "Unknown Armor"
     cost = "0 gp"
@@ -71,7 +71,7 @@ class Armor():
     strength_required = None
     stealth_disadvantage = False
     weight = 0  # In lbs
-    
+
     def __str__(self):
         return self.name
 
@@ -81,11 +81,11 @@ class Armor():
     @classmethod
     def improved_version(cls, bonus):
         bonus = int(bonus)
-        
+
         class NewArmor(cls):
             name = f'+{bonus} ' + cls.name
             base_armor_class = cls.base_armor_class + bonus
-            
+
         return NewArmor
 
 
@@ -215,7 +215,7 @@ class ElvenChain(MediumArmor):
     base_armor_class = 14
     dexerity_mod_max = 2
     weight = 20
-    
+
 
 light_armors = [PaddedArmor, LeatherArmor, StuddedLeatherArmor]
 medium_armors = [HideArmor, ChainShirt, ScaleMail, Breastplate, HalfPlate]

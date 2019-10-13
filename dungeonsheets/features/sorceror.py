@@ -218,9 +218,9 @@ class DragonAncestor(Feature):
     type associated with each dragon is used by features you gain later
 
     Dragon : Damage
-    
+
     Black : Acid
-    
+
     Blue : Lightning
 
     Brass : Fire
@@ -236,7 +236,7 @@ class DragonAncestor(Feature):
     Red : Fire
 
     Silver : Cold
-    
+
     White : Cold
 
     You can speak, read, and write Draconic. Additionally, whenever you make a
@@ -258,7 +258,7 @@ class ElementalAffinity(Feature):
     name = "Elemental Affinity"
     source = "Sorceror (Draconic Bloodline)"
 
-    
+
 class DragonWings(Feature):
     """At 14th level, you gain the ability to sprout a pair of dragon wings from
     your back, gaining a flying speed equal to your current speed. You can
@@ -382,7 +382,7 @@ class EyesOfTheDark(Feature):
     spells_known = (spells.Darkness,)
     spells_prepared = (spells.Darkness,)
 
-    
+
 class StrengthOfTheGrave(Feature):
     """Starting at lst level, your existence in a twilight state between life
     and death makes you difficult to defeat. When damage reduces you to 0 hit
@@ -417,7 +417,7 @@ class HoundOfIllOmen(Feature):
 
     • At the start of its turn, the hound automatically knows its target's
     location. If the target was hidden, it is no longer hidden from the hound.
-    
+
     The hound appears in an unoccupied space of your choice within 30 feet of
     the target. Roll initiative for the hound. On its turn, it can move only
     toward its target by the most direct route, and it can use its action only
@@ -456,7 +456,7 @@ class UmbralForm(Feature):
     name = "Umbral Form"
     source = "Sorceror (Shadow Magic)"
 
-    
+
 # Storm Sorcery
 class TempestuousMagic(Feature):
     """Starting at 1st level, you can use a bonus action on your turn to cause

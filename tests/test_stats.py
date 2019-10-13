@@ -2,13 +2,14 @@ from unittest import TestCase
 
 from dungeonsheets import stats, character
 
+
 class TestStats(TestCase):
 
     def test_mod_str(self):
         self.assertEqual(stats.mod_str(-3), '-3')
         self.assertEqual(stats.mod_str(0), '+0')
         self.assertEqual(stats.mod_str(2), '+2')
-    
+
     def test_saving_throw(self):
         # Try it with an ST proficiency
         class MyClass(character.Character):
@@ -17,7 +18,7 @@ class TestStats(TestCase):
             strength = stats.Ability(14)
         my_class = MyClass()
         self.assertEqual(my_class.strength.saving_throw, 4)
-    
+
     def test_modifier(self):
         class MyCharacter(character.Character):
             saving_throw_proficiencies = ['strength']
@@ -49,7 +50,7 @@ class TestStats(TestCase):
                 stat = my_char.strength
                 msg = f"Stat {value} doesn't produce modifier {target} ({stat.modifier})"
                 self.assertEqual(stat.modifier, target, msg)
-    
+
     def test_setter(self):
         """Verify that this class works as a data descriptor."""
         # Set up a dummy class
@@ -60,7 +61,7 @@ class TestStats(TestCase):
         char.stat = 15
         self.assertEqual(char.stat.value, 15)
         self.assertEqual(char.stat.modifier, 2)
-    
+
     def test_skill(self):
         """Test for a skill, that depends on another ability."""
         class MyClass(character.Character):

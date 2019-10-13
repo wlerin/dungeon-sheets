@@ -27,7 +27,7 @@ class Passwall(Spell):
     and lasts for the duration. You choose the opening's dimensions: up to 5 feet 
     wide, 8 feet tall, and 20 feet deep. The passage creates no instability in a 
     structure surrounding it.
-    
+
     When the opening disappears, any creatures or objects
      still in the passage created by the spell are safely ejected to an unoccupied 
     space nearest to the surface on which you cast the spell.
@@ -52,15 +52,15 @@ class PhantasmalForce(Spell):
     your choice that is no larger than a 10-foot cube and that is perceivable only 
     to the target for the duration. This spell has no effect on undead or 
     constructs.
-    
+
     The phantasm includes sound, temperature, and other stimuli, also 
     evident only to the creature.
-    
+
     The target can use its action to examine the 
     phantasm with an Intelligence (Investigation) check against your spell save DC. 
     If the check succeeds, the target realizes that the phantasm is an illusion, and
      the spell ends.
-    
+
     While a target is affected by the spell, the target treats the
      phantasm as if it were real. The target rationalizes any illogical outcomes 
     from interacting with the phantasm. For example, a target attempting to walk 
@@ -68,7 +68,7 @@ class PhantasmalForce(Spell):
     bridge. If the target survives the fall, it still believes that the bridge 
     exists and comes up with some other explanation for its fallit was pushed, it 
     slipped, or a strong wind might have knocked it off.
-    
+
     An affected target is so 
     convinced of the phantasm's reality that it can even take damage from the 
     illusion. A phantasm created to appear as a creature can attack the target. 
@@ -99,7 +99,7 @@ class PhantasmalKiller(Spell):
     frightened for the duration. At the end of each of the target's turns before the
      spell ends, the target must succeed on a Wisdom saving throw or take 4d10 
     psychic damage. On a successful save, the spell ends.
-    
+
     At Higher Levels: When 
     you cast this spell using a spell slot of 5th level or higher, the damage 
     increases by 1d1O for each slot level above 4th.
@@ -122,7 +122,7 @@ class PhantomSteed(Spell):
     is equipped with a saddle, bit, and bridle. Any of the equipment created by the 
     spell vanishes in a puff of smoke if it is carried more than 10 feet away from 
     the steed.
-    
+
     For the duration, you or a creature you choose can ride the steed. 
     The creature uses the statistics for a riding horse, except it has a speed of 
     100 feet and can travel 10 miles in an hour, or 13 miles at a fast pace. When 
@@ -151,20 +151,20 @@ class PlanarAlly(Spell):
     specific creature's name, you can speak that name when you cast this spell to 
     request that creature, though you might get a different creature anyway (DM's 
     choice).
-    
+
     When the creature appears, it is under no compulsion to behave in any 
     particular way. You can ask the creature to perform a service in exchange for 
     payment, but it isn't obliged to do so. The requested task could range from 
     simple (fly us across the chasm, or help us fight a battle) to complex (spy on 
     our enemies, or protect us during our foray into the dungeon). You must be able 
     to communicate with the creature to bargain for its services.
-    
+
     Payment can take 
     a variety of forms. A celestial might require a sizable donation of gold or 
     magic items to an allied temple, while a fiend might demand a living sacrifice 
     or a gift of treasure. Some creatures might exchange their service for a quest 
     undertaken by you.
-    
+
     As a rule of thumb, a task that can be measured in minutes 
     requires a payment worth 100 gp per minute. A task measured in hours requires 
     1,000 gp per hour. And a task m easured in days (up to 10 days) requires 10,000 
@@ -173,14 +173,14 @@ class PlanarAlly(Spell):
     payment might be halved or even waived. Nonhazardous tasks typically require 
     only half the suggested payment, while especially dangerous tasks might require 
     a greater gift. Creatures rarely accept tasks that seem suicidal.
-    
+
     After the 
     creature completes the task, or when the agreed-upon duration of service 
     expires, the creature returns to its home plane after reporting back to you, if 
     appropriate to the task and if possible. If you are unable to agree on a price 
     for the creature's service, the creature immediately returns to its home plane.
-    
-    
+
+
     A creature enlisted to join your group counts as a member of it, receiving a 
     full share of experience points awarded.
     """
@@ -206,7 +206,7 @@ class PlanarBinding(Spell):
     a failed save, it is bound to serve you for the duration. If the creature w as 
     summoned or created by another spell, that spell's duration is extended to match
      the duration of this spell.
-    
+
     A bound creature must follow your instructions to 
     the best of its ability. You might command the creature to accompany you on an 
     adventure, to guard a location, or to deliver a message. The creature obeys the 
@@ -216,7 +216,7 @@ class PlanarBinding(Spell):
     this fact if you are on the same plane of existence. If you are on a different 
     plane of existence, it returns to the place where you bound it and remains there
      until the spell ends.
-    
+
     At Higher Levels: When you cast this spell using a spell
      slot of a higher level, the duration increases to:
     10 days with a 6th-level 
@@ -246,13 +246,13 @@ class PlaneShift(Spell):
     near that destination. If you are trying to reac the City of Brass, for example,
      you might arrive in its Street of Steel, before its Gate of Ashes, or looking 
     at the city from across the Sea of Fire, at the DM's discretion.
-    
+
     Alternatively,
      if you know the sigil sequence of a teleportation circle on another plane of 
     existence, this spell can take you to that circle. If the teleportation circle 
     is too small to hold all the creatures you transported, they appear in the 
     closest unoccupied spaces next to the circle.
-    
+
     You can use this spell to banish 
     an unwilling creature to another plane. Choose a creature within your reach and 
     make a melee spell attack against it. On a hit, the creature must make a 
@@ -275,16 +275,16 @@ class PlaneShift(Spell):
 class PlantGrowth(Spell):
     """This spell channels vitality into plants within a specific area. There are two 
     possible uses for the spell, granting either immediate or long-term benefits.
-    
-    
+
+
     If you cast this spell using 1 action, choose a point within range. All normal 
     plants in a 100-foot radius centered on that point become thick and overgrown. A
      creature moving through the area must spend 4 feet of movement for every 1 foot
      it moves.
-    
+
     You can exclude one or more areas of any size within the spell's 
     area from being affected.
-    
+
     If you cast this spell over 8 hours, you enrich the 
     land. All plants in a half-mile radius centered on a point within range become 
     enriched for 1 year. The plants yield twice the normal amount of food when 
@@ -306,7 +306,7 @@ class PoisonSpray(Spell):
     """You extend your hand toward a creature you can see within range and project a 
     puff of noxious gas from your palm. The creature must succeed on a Constitution 
     saving throw or take 1d12 poison damage.
-    
+
     At Higher Levels: This spell's damage 
     increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), 17th level
      (4d12).
@@ -327,26 +327,26 @@ class Polymorph(Spell):
     """This spell transforms a creature that you can see within range into a new form. 
     An unwilling creature must make a Wisdom saving throw to avoid the effect. A 
     shapechanger automatically succeeds on this saving throw.
-    
+
     The transformation 
     lasts for the duration, or until the target drops to 0 hit points or dies. The 
     new form can be any beast whose challenge rating is equal to or less than the 
     target's (or the target's level, if it doesn't have a challenge rating). The 
     target's game statistics, including mental ability scores, are replaced by the 
     statistics of the chosen beast. It retains its alignment and personality.
-    
+
     The 
     target assumes the hit points of its new form. When it reverts to its normal 
     form, the creature returns to the number of hit points it had before it 
     transformed. If it reverts as a result of dropping to 0 hit points, any excess 
     damage carries over to its normal form. As long as the excess damage doesn't 
     reduce the creature's normal form to 0 hit points, it isn't knocked unconscious.
-    
-    
+
+
     The creature is limited in the actions it can perform by the nature of its new
      form, and it can't speak, cast spells, or take any other action that requires 
     hands or speech.
-    
+
     The target's gear melds into the new form. The creature can't 
     activate, use, wield, or otherwise benefit from any of its equipment. This spell
      can't affect a target that has 0 hit points.
@@ -448,7 +448,7 @@ class PrayerOfHealing(Spell):
     """Up to six creatures of your choice that you can see within range each regain hit
      points equal to 2d8 + your spellcasting ability modifier. This spell has no 
     effect on undead or constructs.
-    
+
     At Higher Levels: When you cast this spell 
     using a spell slot of 3rd level or higher, the healing increases by 1d8 for each
      slot level above 2nd.
@@ -468,7 +468,7 @@ class PrayerOfHealing(Spell):
 class Prestidigitation(Spell):
     """This spell is a minor magical trick that novice spellcasters use for practice. 
     You create one of the following magical effects within range:
-     -You create an 
+      -You create an 
     instantaneous, harmless sensory effect, such as a shower of sparks, a puff of 
     wind, faint musical notes, or an odd odor. 
     -You instantaneously light or snuff 
@@ -544,31 +544,31 @@ class PrismaticSpray(Spell):
     color and has a different power and purpose. Each creature in a 60-foot cone 
     must make a Dexterity saving throw. For each target, roll a d8 to determine 
     which color ray affects it.
-    
+
     1. Red. The target takes 10d6 fire damage on a 
     failed save, or half as much damage on a successful one.
-    
+
     2. Orange. The target 
     takes 10d6 acid damage on a failed save, or half as much damage on a successful 
     one.
-    
+
     3. Yellow. The target takes 10d6 lightning damage on a failed save, or 
     half as much damage on a successful one.
-    
+
     4. Green. The target takes 10d6 poison
      damage on a failed save, or half as much damage on a successful one.
-    
+
     5. Blue. 
     The target takes 10d6 cold damage on a failed save, or half as much damage on a 
     successful one.
-    
+
     6. Indigo. On a failed save, the target is restrained. It must 
     then make a Constitution saving throw at the end of each of its turns. If it 
     successfully saves three times, the spell ends. If it fails its save three 
     times, it permanently turns to stone and is subjected to the petrified 
     condition. The successes and failures don't need to be consecutive; keep track 
     of both until the target collects three of a kind.
-    
+
     7. Violet. On a failed save,
      the target is blinded. It must then make a Wisdom saving throw at the start of 
     your next turn. A successful save ends the blindness. If it fails that save, the
@@ -576,7 +576,7 @@ class PrismaticSpray(Spell):
     is no longer blinded. (Typically, a creature that is on a plane that isn't its 
     home plane is banished home, while other creatures are usually cast into the 
     Astral or Ethereal planes.)
-    
+
     8. Special. The target is struck by two rays. Roll 
     twice more, rerolling any 8.
     """
@@ -600,50 +600,50 @@ class PrismaticWall(Spell):
     for the duration. If you position the wall so that it passes through a space 
     occupied by a creature, the spell fails, and your action and the spell slot are 
     wasted.
-    
+
     The wall sheds bright light out to a range of 100 feet and dim light 
     for an additional 100 feet. You and creatures you designate at the time you cast
      the spell can pass through and remain near the wall without harm. If another 
     creature that can see the wall moves to within 20 feet of it or starts its turn 
     there, the creature must succeed on a Constitution saving throw or become 
     blinded for 1 minute.
-    
+
     The wall consists of seven layers, each with a different 
     color. When a creature attempts to reach into or pass through the wall, it does 
     so one layer at a time through all the wall's layers. As it passes or reaches 
     through each layer, the creature must make a Dexterity saving throw or be 
     affected by that layer's properties as described below.
-    
+
     The wall can be 
     destroyed, also one layer at a time, in order from red to violet, by means 
     specific to each layer. Once a layer is destroyed, it remains so for the 
     duration of the spell. A rod of cancellation destroys a prismatic wall, but an 
     antimagic field has no effect on it.
-    
+
     1. Red. The creature takes 10d6 fire 
     damage on a failed save, or half as much damage on a successful one. While this 
     layer is in place, nonmagical ranged attacks can't pass through the wall. The 
     layer can be destroyed by dealing at least 25 cold damage to it.
-    
+
     2. Orange. The
      creature takes 10d6 acid damage on a failed save, or half as much damage on a 
     successful one. While this layer is in place, magical ranged attacks can't pass 
     through the wall. The layer is destroyed by a strong wind.
-    
+
     3. Yellow. The 
     creature takes 10d6 lightning damage on a failed save, or half as much damage on
      a successful one. This layer can be destroyed by dealing at least 60 force 
     damage to it.
-    
+
     4. Green. The creature takes 10d6 poison damage on a failed save,
      or half as much damage on a successful one. A passwall spell, or another spell 
     of equal or greater level that can open a portal on a solid surface, destroys 
     this layer.
-    
+
     5. Blue. The creature takes 10d6 cold damage on a failed save, or 
     half as much damage on a successful one. This layer can be destroyed by dealing 
     at least 25 fire damage to it.
-    
+
     6. Indigo. On a failed save, the creature is 
     restrained. It must then make a Constitution saving throw at the end of each of 
     its turns. If it successfully saves three times, the spell ends. If it fails its
@@ -653,7 +653,7 @@ class PrismaticWall(Spell):
      is in place, spells can't be cast through the wall. The layer is destroyed by 
     bright light shed by a daylight spell or a similar spell of equal or higher 
     level.
-    
+
     7. Violet. On a failed save, the creature is blinded. It must then make 
     a Wisdom saving throw at the start of your next turn. A successful save ends the
      blindness. If it fails that save, the creature is transported to another plane 
@@ -681,12 +681,12 @@ class ProduceFlame(Spell):
     duration and harms neither you nor your equipment. The flame sheds bright light 
     in a 10-foot radius and dim light for an additional 10 feet. The spell ends if 
     you dismiss it as an action or if you cast it again.
-    
+
     You can also attack with 
     the flame, although doing so ends the spell. When you cast this spell, or as an 
     action on a later turn, you can hurl the flame at a creature within 30 feet of 
     you. Make a ranged spell attack. On a hit, the target takes 1d8 fire damage.
-    
+
     At
      Higher Levels: This spell's damage increases by 1d8 when you reach 5th level 
     (2d8), 11th level (3d8), and 17th level (4d8).
@@ -709,20 +709,20 @@ class ProgrammedIllusion(Spell):
     illusion is imperceptible until then. It must be no larger than a 30-foot cube, 
     and you decide when you cast the spell how the illusion behaves and what sounds 
     it makes. This scripted performance can last up to 5 minutes.
-    
+
     When the 
     condition you specify occurs, the illusion springs into existence and performs 
     in the manner you described. Once the illusion finishes performing, it 
     disappears and remains dormant for 10 minutes. After this time, the illusion can
      be activated again.
-    
+
     The triggering condition can be as general or as detailed 
     as you like, though it must be based on visual or audible conditions that occur 
     within 30 feet of the area. For example, you could create an illusion of 
     yourself to appear and warn off others who attempt to open a trapped door, or 
     you could set the illusion to trigger only when a creature says the correct word
      or phrase.
-    
+
     Physical interaction with the image reveals it to be an illusion, 
     because things can pass through it. A creature that uses its action to examine 
     the image can determine that it is an illusion with a successful Intelligence 
@@ -748,18 +748,18 @@ class ProjectImage(Spell):
     can appear at any location within range that you have seen before, regardless of
      intervening obstacles. The illusion looks and sounds like you but is 
     intangible. If the illusion takes any damage, it disappears, and the spell ends.
-    
-    
+
+
     You can use your action to move this illusion up to twice your speed, and make
      it gesture, speak, and behave in whatever way you choose. It mimics your 
     mannerisms perfectly.
-    
+
     You can see through its eyes and hear through its ears as
      if you were in its space. On your turn as a bonus action, you can switch from 
     using its senses to using your own, or back again. While you are using its 
     senses, you are blinded and deafened in regard to your own surroundings.
-    
-    
+
+
     Physical interaction with the image reveals it to be an illusion, because things
      can pass through it. A creature that uses its action to examine the image can 
     determine that it is an illusion with a successful Intelligence (Investigation) 
@@ -799,7 +799,7 @@ class ProtectionFromEvilAndGood(Spell):
     """Until the spell ends, one willing creature you touch is protected against 
     certain types of creatures: aberrations, celestials, elementals, fey, fiends, 
     and undead.
-    
+
     The protection grants several benefits. Creatures of those types 
     have disadvantage on attack rolls against the target. The target also can't be 
     charmed, frightened, or possessed by them. If the target is already charmed, 
@@ -822,7 +822,7 @@ class ProtectionFromPoison(Spell):
     """You touch a creature. If it is poisoned, you neutralize the poison. If more than
      one poison afflicts the target, you neutralize one poison that you know is 
     present, or you neutralize one at random.
-    
+
     For the duration, the target has 
     advantage on saving throws against being poisoned, and it has resistance to 
     poison damage.
@@ -901,5 +901,3 @@ class Pyrotechnics(Spell):
     ritual = False
     magic_school = "Transmutation"
     classes = ('Bard', 'Sorcerer', 'Wizard')
-
-

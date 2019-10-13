@@ -38,7 +38,7 @@ class ShadowWay(SubClass):
     features_by_level[6] = [features.ShadowStep]
     features_by_level[11] = [features.CloakOfShadows]
     features_by_level[17] = [features.Opportunist]
-    
+
 
 class FourElementsWay(SubClass):
     """You follow a monastic tradition that teaches you to harness the

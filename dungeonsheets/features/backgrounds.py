@@ -93,7 +93,7 @@ class GuildMembership(Feature):
     name = "Guild Membership"
     source = "Background (Guild Artisan)"
 
-    
+
 class Discovery(Feature):
     """The quiet seclusion of your extended hermitage gave you access to a unique
     and powerful discovery. The exact nature of this revelation depends on the

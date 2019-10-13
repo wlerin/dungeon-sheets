@@ -136,7 +136,7 @@ class FastHands(Feature):
     name = "Fast Hands"
     source = "Rogue (Thief)"
 
-    
+
 class SecondStoryWork(Feature):
     """When you choose this archetype at 3rd level, you gain the ability to climb
     faster than normal; climbing no longer costs you extra movement. In
@@ -237,10 +237,10 @@ class DeathStrike(Feature):
 class MageHandLegerdemain(Feature):
     """Starting at 3rd level, when you cast mage hand, you can make the spectral
     hand invisible, and you can perform the following additional tasks with it:
-    
+
     • You can stow one object the hand is holding in a container worn or
     carried by another creature.
-    
+
     • You can retrieve an object in a container worn or carried by another
     creature.
 
@@ -342,7 +342,7 @@ class SteadyEye(Feature):
     name = "Steady Eye"
     source = "Rogue (Inquisitive)"
 
-    
+
 class UnerringEye(Feature):
     """Beginning at 13th level, your senses are almost im« possible to foil. As an
     action, you sense the presence of illusions, shapechangers not in their
@@ -393,7 +393,7 @@ class MasterOfTactics(Feature):
     name = "Master of Tactics"
     source = "Rogue (Mastermind)"
 
-    
+
 class InsightfulManipulator(Feature):
     """Starting at 9th level, if you spend at least 1 minute observing or
     interacting with another creature outside combat, you can learn certain
@@ -460,7 +460,7 @@ class Survivalist(Feature):
     pro- ficiencies
 
     """
-    
+
     def __init__(self, owner=None):
         super().__init__(owner=owner)
         self.owner.skill_expertise += ("nature", "survival")
@@ -486,7 +486,7 @@ class AmbushMaster(Feature):
     """
     name = "Ambush Master"
     source = "Rogue (Scout)"
-        
+
 
 class SuddenStrike(Feature):
     """Starting at 17th level, you can strike with deadly speed. If you take the
@@ -566,5 +566,3 @@ class MasterDuelist(Feature):
     """
     name = "Master Duelist"
     source = "Rogue (Swashbuckler)"
-    
-

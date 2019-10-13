@@ -30,11 +30,11 @@ class IceStorm(Spell):
     Each creature in the cylinder must 
     make a Dexterity saving throw. A creature takes 2d8 bludgeoning damage and 4d6 
     cold damage on a failed save, or half as much damage on a successful one.
-    
-    
+
+
     Hailstones turn the storm's area of effect into difficult terrain until the end 
     of your next turn.
-    
+
     At Higher Levels: When you cast this spell using a spell 
     slot of 5th level or higher, the bludgeoning damage increases by 1d8 for each 
     slot level above 4th.
@@ -58,7 +58,7 @@ class Identify(Spell):
     many charges it has, if any. You learn whether any spells are affecting the item
      and what they are. If the item was created by a spell, you learn which spell 
     created it.
-    
+
     If you instead touch a creature throughout the casting, you learn 
     what spells, if any, are currently affecting it.
     """
@@ -115,7 +115,7 @@ class IllusoryDragon(Spell):
 class IllusoryScript(Spell):
     """You write on parchment, paper, or some other suitable writing material and imbue
      it with a potent illusion that lasts for the duration.
-    
+
     To you and any 
     creatures you designate when you cast the spell, the writing appears normal, 
     written in your hand, and conveys whatever meaning you intended when you wrote 
@@ -123,7 +123,7 @@ class IllusoryScript(Spell):
      or magical script that is unintelligible. Alternatively, you can cause the 
     writing to appear to be an entirely different message, written in a different 
     hand and language, though the language must be one you know.
-    
+
     Should the spell 
     be dispelled, the original script and the illusion both disappear.
     A creature 
@@ -167,15 +167,15 @@ class Immolation(Spell):
 
 class Imprisonment(Spell):
     """You create a magical restraint to hold a creature that you can see within range.
-    
+
     The target must succeed on a Wisdom saving throw or be bound by the spell; if 
     it succeeds, it is immune to this spell if you cast it again. While affected by 
     this spell, the creature doesn't need to breathe, eat, or drink, and it doesn't 
     age. Divination spells can't locate or perceive the target.
-    
+
     When you cast the 
     spell, you choose one of the following forms of imprisonment. 
-    
+
     Burial
     The 
     target is entombed far beneath the earth in a sphere of magical force that is 
@@ -183,15 +183,15 @@ class Imprisonment(Spell):
     sphere, nor can any creature teleport or use planar travel to get into or out of
      it.
     The special component for this version of the spell is a small mithral orb.
-    
-    
+
+
     Chaining
     Heavy chains, firmly rooted in the ground, hold the target in place. 
     The target is restrained until the spell ends, and it can't move or be moved by 
     any means until then.
     The special component for this version of the spell is 
     a fine chain of precious metal.
-    
+
     Hedged Prison
     The spell transports the target 
     into a tiny demiplane that is warded against teleportation and planar travel. 
@@ -199,7 +199,7 @@ class Imprisonment(Spell):
     structure or area of your choice.
     The special component for this version of the 
     spell is a miniature representation of the prison made from jade.
-    
+
     Minimus 
     Containment
     The target shrinks to a height of 1 inch and is imprisoned inside a 
@@ -210,13 +210,13 @@ class Imprisonment(Spell):
     The 
     special component for this version of the spell is a large, transparent 
     gemstone, such as a corundum, diamond, or ruby.
-    
+
     Slumber
     The target falls asleep
      and can't be awoken.
     The special component for this version of the 
     spell consists of rare soporific herbs. 
-    
+
     Ending the Spell
     During the casting of
      the spell, in any of its versions, you can specify a condition that will cause 
@@ -226,11 +226,11 @@ class Imprisonment(Spell):
     creature's name, identity, or deity but otherwise must be based on 
     observable actions or qualities and not based on intangibles such as level, 
     class, or hit points.
-    
+
     A dispel magic spell can end the spell only if it is 
     cast as a 9th-level spell, targeting either the prison or the special component 
     used to create it.
-    
+
     You can use a particular special component to create only 
     one prison at a time. If you cast the spell again using the same component, the 
     target of the first casting is immediately freed from its binding.
@@ -253,13 +253,13 @@ class IncendiaryCloud(Spell):
     The cloud spreads around
      corners and is heavily obscured. It lasts for the duration or until a wind of 
     moderate or greater speed (at least 10 miles per hour) disperses it.
-    
+
     When the 
     cloud appears, each creature in it must make a Dexterity saving throw. A 
     creature takes 10d8 fire damage on a failed save, or half as much damage on a 
     successful one. A creature must also make this saving throw when it enters the 
     spell's area for the first time on a turn or ends its turn there.
-    
+
     The cloud 
     moves 10 feet directly away from you in a direction that you choose at the start
      of each of your turns.
@@ -308,7 +308,7 @@ class InfernalCalling(Spell):
     of the appropriate challenge
     rating plus 1, and it obeys all your commands, with
      no Charisma checks required.
-    
+
     At Higher Levels: When you cast this spell using 
     a spell slot of 6th level or higher, the challenge rating increases by 1 for 
     each slot level above 5th.
@@ -351,7 +351,7 @@ class Infestation(Spell):
 class InflictWounds(Spell):
     """Make a melee spell attack against a creature you can reach. On a hit, the target
      takes 3d10 necrotic damage.
-    
+
     At Higher Levels: When you cast this spell using a
      spell slot of 2nd level or higher, the damage increases by 1d10 for each slot 
     level above 1st.
@@ -373,13 +373,13 @@ class InsectPlague(Spell):
     choose within range. The sphere spreads around corners. The sphere remains for 
     the duration, and its area is lightly obscured. The sphere's area is difficult 
     terrain.
-    
+
     When the area appears, each creature in it must make a Constitution 
     saving throw. A creature takes 4d10 piercing damage on a failed save, or half as
      much damage on a successful one. A creature must also make this saving throw 
     when it enters the spell's area for the first time on a turn or ends its turn 
     there.
-    
+
     At Higher Levels: When you cast this spell using a spell slot of 6th 
     level or higher, the damage increases by 1d10 for each slot level above 5th.
     """
@@ -423,7 +423,7 @@ class InvestitureOfFlame(Spell):
 
 class InvestitureOfIce(Spell):
     """Until the spell ends, ice rimes your body, and you gain the following benefits:
-    
+
     - You are immune to cold damage and have resistance to fire damage.
     - You can 
     move across difficult terrain created by ice or snow without spending extra 
@@ -507,7 +507,7 @@ class Invisibility(Spell):
     """A creature you touch becomes invisible until the spell ends. Anything the target
      is wearing or carrying is invisible as long as it is on the target's person. 
     The spell ends for a target that attacks or casts a spell.
-    
+
     At Higher Levels: 
     When you cast this spell using a spell slot of 3rd level or higher, you can 
     target one additional creature for each slot level above 2nd.
@@ -537,5 +537,3 @@ class Invulnerability(Spell):
     ritual = False
     magic_school = "Abjuration"
     classes = ('Wizard',)
-
-

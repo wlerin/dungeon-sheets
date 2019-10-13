@@ -15,7 +15,7 @@ from math import ceil
 def findattr(obj, name):
     """Similar to builtin getattr(obj, name) but more forgiving to
     whitespace and capitalization.
-    
+
     """
     # Come up with several options
     name = name.strip()
@@ -57,13 +57,13 @@ AbilityScore = namedtuple('AbilityScore',
 
 class Ability():
     ability_name = None
-    
+
     def __init__(self, default_value=10):
         self.default_value = default_value
-    
+
     def __set_name__(self, character, name):
         self.ability_name = name
-    
+
     def _check_dict(self, obj):
         if not hasattr(obj, '_ability_scores'):
             # No ability score dictionary exists
@@ -73,7 +73,7 @@ class Ability():
         elif self.ability_name not in obj._ability_scores.keys():
             # ability score dictionary exists but doesn't have this ability
             obj._ability_scores[self.ability_name] = self.default_value
-    
+
     def __get__(self, character, Character):
         self._check_dict(character)
         score = character._ability_scores[self.ability_name]
@@ -87,7 +87,7 @@ class Ability():
         # Create the named tuple
         value = AbilityScore(modifier=modifier, value=score, saving_throw=saving_throw)
         return value
-    
+
     def __set__(self, character, val):
         self._check_dict(character)
         character._ability_scores[self.ability_name] = val
@@ -96,14 +96,14 @@ class Ability():
 
 class Skill():
     """An ability-based skill, such as athletics."""
-    
+
     def __init__(self, ability):
         self.ability_name = ability
-    
+
     def __set_name__(self, character, name):
         self.skill_name = name.lower().replace('_', ' ')
         self.character = character
-    
+
     def __get__(self, character, owner):
         ability = getattr(character, self.ability_name)
         modifier = ability.modifier
@@ -117,7 +117,7 @@ class Skill():
             if self.ability_name.lower() in ('strength',
                                              'dexterity', 'constitution'):
                 modifier += ceil(character.proficienc_bonus / 2.)
-        
+
         # Check for expertise
         is_expert = self.skill_name in character.skill_expertise
         if is_expert:
@@ -163,7 +163,7 @@ class ArmorClass():
             if hasattr(mitem, 'ac_bonus'):
                 ac += mitem.ac_bonus
         return ac
-        
+
 
 class Speed():
     """
@@ -196,6 +196,7 @@ class Speed():
 
 class Initiative():
     """A character's initiative"""
+
     def __get__(self, char, Character):
         ini = char.dexterity.modifier
         if char.has_feature(QuickDraw):
@@ -211,4 +212,3 @@ class Initiative():
         if has_advantage:
             ini += '(A)'
         return ini
-    

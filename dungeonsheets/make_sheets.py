@@ -1,22 +1,20 @@
 #!/usr/bin/env python
 
+from .stats import mod_str
+from . import exceptions, classes
+from . import character as _char
+from jinja2 import Environment, PackageLoader
+import pdfrw
+from fdfgen import forge_fdf
+from io import StringIO
+import re
+import warnings
+import subprocess
+import os
+import importlib.util
+import argparse
 import logging
 log = logging.getLogger(__name__)
-import argparse
-import importlib.util
-import os
-import subprocess
-import warnings
-import re
-from io import StringIO
-
-from fdfgen import forge_fdf
-import pdfrw
-from jinja2 import Environment, PackageLoader
-
-from . import character as _char
-from . import exceptions, classes
-from .stats import mod_str
 
 
 """Program to take character definitions and build a PDF of the
@@ -27,6 +25,7 @@ it_re = re.compile(r'\*([^*]+)\*')
 tt_re = re.compile(r'``([^`]+)``')
 # A dice string, with optinal backticks: ``1d6 + 3``
 dice_re = re.compile(r'`*(\d+d\d+(?:\s*\+\s*\d+)?)`*')
+
 
 def rst_to_latex(rst):
     """Basic markup of RST to LaTeX code."""
@@ -98,7 +97,7 @@ def create_latex_pdf(character, basename, template):
                 print(f'Our exception in {e}', end='\n\n')
                 print(i)
         '''
-        
+
     # Convenience function for removing temporary files
     def remove_temp_files(basename_):
         filenames = [f'{basename_}.tex', f'{basename_}.aux',
@@ -133,7 +132,8 @@ def create_spells_pdf(character, basename, flatten=False):
                       for c in character.spellcasting_classes])
     bonuses = ' / '.join([mod_str(character.spell_attack_bonus(c))
                           for c in character.spellcasting_classes])
-    spell_level = lambda x : (x or 0)
+
+    def spell_level(x): return (x or 0)
     fields = {
         'Spellcasting Class 2': classes_and_levels,
         'SpellcastingAbility 2': abilities,
@@ -309,7 +309,7 @@ def create_character_pdf(character, basename, flatten=False):
     # Add weapons
     weapon_fields = [('Wpn Name', 'Wpn1 AtkBonus', 'Wpn1 Damage'),
                      ('Wpn Name 2', 'Wpn2 AtkBonus ', 'Wpn2 Damage '),
-                     ('Wpn Name 3', 'Wpn3 AtkBonus  ', 'Wpn3 Damage '),]
+                     ('Wpn Name 3', 'Wpn3 AtkBonus  ', 'Wpn3 Damage '), ]
     if len(character.weapons) == 0:
         character.wield_weapon('unarmed')
     for _fields, weapon in zip(weapon_fields, character.weapons):
@@ -335,9 +335,9 @@ def create_character_pdf(character, basename, flatten=False):
                     flatten=flatten)
 
 
-def make_pdf(fields: dict, src_pdf: str, basename: str, flatten: bool=False):
+def make_pdf(fields: dict, src_pdf: str, basename: str, flatten: bool = False):
     """Create a new PDF by applying fields to a src PDF document.
-    
+
     Parameters
     ==========
     fields :
@@ -351,7 +351,7 @@ def make_pdf(fields: dict, src_pdf: str, basename: str, flatten: bool=False):
     flatten :
       If truthy, the PDF will be collapsed so it is no longer
       editable.
-    
+
     """
     try:
         result = _make_pdf_pdftk(fields, src_pdf, basename, flatten)
@@ -363,7 +363,7 @@ def make_pdf(fields: dict, src_pdf: str, basename: str, flatten: bool=False):
         _make_pdf_pdfrw(fields, src_pdf, basename, flatten)
 
 
-def _make_pdf_pdfrw(fields: dict, src_pdf: str, basename: str, flatten: bool=False):
+def _make_pdf_pdfrw(fields: dict, src_pdf: str, basename: str, flatten: bool = False):
     """Backup make_pdf function in case pdftk is not available."""
     template = pdfrw.PdfReader(src_pdf)
     # Different types of PDF fields
@@ -414,12 +414,12 @@ def _make_pdf_pdftk(fields, src_pdf, basename, flatten=False):
     """More robust way to make a PDF, but has a hard dependency."""
     # Create the actual FDF file
     fdfname = basename + '.fdf'
-    
+
     fdf = forge_fdf("", fields, [], [], [])
     fdf_file = open(fdfname, "wb")
     fdf_file.write(fdf)
     fdf_file.close()
-        # Build the final flattened PDF documents
+    # Build the final flattened PDF documents
     dest_pdf = basename + '.pdf'
     popenargs = [
         PDFTK_CMD, src_pdf, 'fill_form', fdfname, 'output', dest_pdf,
@@ -429,11 +429,11 @@ def _make_pdf_pdftk(fields, src_pdf, basename, flatten=False):
     subprocess.call(popenargs)
     # Clean up temporary files
     os.remove(fdfname)
-    
-    
+
+
 def make_sheet(character_file, character=None, flatten=False):
     """Prepare a PDF character sheet from the given character file.
-    
+
     Parameters
     ----------
     character_file : str
@@ -497,7 +497,7 @@ def make_sheet(character_file, character=None, flatten=False):
 
 def merge_pdfs(src_filenames, dest_filename, clean_up=False):
     """Merge several PDF files into a single final file.
-    
+
     src_filenames
       Iterable of source PDF file paths to use.
     dest_filename
@@ -506,7 +506,7 @@ def merge_pdfs(src_filenames, dest_filename, clean_up=False):
     clean_up : optional
       If truthy, the ``src_filenames`` will be deleted once the
       ``dest_filename`` has been created.
-    
+
     """
     popenargs = (PDFTK_CMD, *src_filenames, 'cat', 'output', dest_filename)
     try:

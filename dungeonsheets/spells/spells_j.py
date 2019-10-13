@@ -15,5 +15,3 @@ class Jump(Spell):
     ritual = False
     magic_school = "Transmutation"
     classes = ('Druid', 'Ranger', 'Sorcerer', 'Wizard')
-
-

@@ -8,7 +8,7 @@ class LegendLore(Spell):
     been widely known. If the thing you named isn't of legendary importance, you 
     gain no information. The more information you already have about the thing, the 
     more precise and detailed the information you receive is.
-    
+
     The information you 
     learn is accurate but might be couched in figurative language. For example, if 
     you have a mysterious magic axe on hand, the spell might yield this information:
@@ -35,13 +35,13 @@ class LeomundsSecretChest(Spell):
     the chest and the miniature replica that serves as a material component for the 
     spell. The chest can contain up to 12 cubic feet of nonliving material (3 feet 
     by 2 feet by 2 feet).
-    
+
     While the chest remains on the Ethereal Plane, you can 
     use an action and touch the replica to recall the chest. It appears in an 
     unoccupied space on the ground within 5 feet of you. You can send the chest back
      to the Ethereal Plane by using an action and touching both the chest and the 
     replica.
-    
+
     After 60 days, there is a cumulative 5 percent chance per day that the
      spell's effect ends. This effect ends if you cast this spell again, if the 
     smaller replica chest is destroyed, or if you choose to end the spell as an 
@@ -64,7 +64,7 @@ class LeomundsTinyHut(Spell):
     """A 10-foot-radius immobile dome of force springs into existence around and above 
     you and remains stationary for the duration. The spell ends if you leave its 
     area.
-    
+
     Nine creatures of Medium size or smaller can fit inside the dome with 
     you. The spell fails if its area includes a larger creature or more than nine 
     creatures. Creatures and objects within the dome when you cast this spell can 
@@ -72,7 +72,7 @@ class LeomundsTinyHut(Spell):
     through it. Spells and other magical effects can't extend through the dome or be
      cast through it. The atmosphere inside the space is comfortable and dry, 
     regardless of the weather outside.
-    
+
     Until the spell ends, you can command the 
     interior to become dimly lit or dark. The dome is opaque from the outside, of 
     any color you choose, but it is transparent from the inside.
@@ -110,7 +110,7 @@ class Levitate(Spell):
     vertically, up to 20 feet, and remains suspended there for the duration. The 
     spell can levitate a target that weighs up to 500 pounds. An unwilling creature 
     that succeeds on a Constitution saving throw is unaffected.
-    
+
     The target can move
      only by pushing or pulling against a fixed object or surface within reach (such
      as a wall or a ceiling), which allows it to move as if it were climbing. You 
@@ -118,7 +118,7 @@ class Levitate(Spell):
     turn. If you are the target, you can move up or down as part of your move. 
     Otherwise, you can use your action to move the target, which must remain within 
     the spell's range.
-    
+
     When the spell ends, the target floats gently to the ground 
     if it is still aloft.
     """
@@ -139,7 +139,7 @@ class LifeTransference(Spell):
     4d8 necrotic damage, and one creature of your choice that you can see within 
     range regains a number of hit points equal to twice the necrotic damage you 
     take.
-    
+
     At Higher Levels: When you cast this spell using a spell slot of 4th 
     level or higher, the damage increases by 1d8 for each slot level above 3rd.
     """
@@ -161,7 +161,7 @@ class Light(Spell):
     an additional 20 feet. The light can be colored as you like. Completely covering
      the object with something opaque blocks the light. The spell ends if you cast 
     it again or dismiss it as an action.
-    
+
     If you target an object held or worn by a 
     hostile creature, that creature must succeed on a Dexterity saving throw to 
     avoid the spell.
@@ -184,14 +184,14 @@ class LightningArrow(Spell):
     into a bolt of lightning. Make the attack roll as normal, The target takes 4d8 
     lightning damage on a hit, or half as much damage on a miss, instead of the 
     weapon's normal damage.
-    
+
     Whether you hit or miss, each creature within 10 feet 
     of the target must make a Dexterity saving throw. Each of these creatures takes 
     2d8 lightning damage on a failed save, or half as much damage on a successful 
     one.
-    
+
     The piece of ammunition or weapon then returns to its normal form.
-    
+
     At 
     Higher Levels: When you cast this spell using a spell slot of 4th level or 
     higher, the damage for both effects of the spell increases by 1d8 for each slot 
@@ -214,10 +214,10 @@ class LightningBolt(Spell):
      from you in a direction you choose. Each creature in the line must make a 
     Dexterity saving throw. A creature takes 8d6 lightning damage on a failed save, 
     or half as much damage on a successful one.
-    
+
     The lightning ignites flammable 
     objects in the area that aren't being worn or carried.
-    
+
     At Higher Levels: When 
     you cast this spell using a spell slot of 4th level or higher, the damage 
     increases by 1d6 for each slot level above 3rd.
@@ -240,7 +240,7 @@ class LightningLure(Spell):
     The target must succeed on a Strength 
     saving throw or be pulled up to 10 feet in a straight line toward you and then 
     take 1d8 lightning damage if it is within 5 feet of you.
-    
+
     At Higher Levels: This
      spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level 
     (3d8), and 17th level (4d8).
@@ -278,14 +278,14 @@ class LocateCreature(Spell):
     """Describe or name a creature that is familiar to you. You sense the direction to 
     the creature's location, as long as that creature is within 1,000 feet of you. 
     If the creature is moving, you know the direction of its movement.
-    
+
     The spell 
     can locate a specific creature known to you, or the nearest creature of a 
     specific kind (such as a human or a unicorn), so long as you have seen such a 
     creature up close – within 30 feet – at least once. If the creature you 
     described or named is in a different form, such as being under the effects of a 
     polymorph spell, this spell doesn't locate the creature.
-    
+
     This spell can't 
     locate a creature if running water at least 10 feet wide blocks a direct path 
     between you and the creature.
@@ -306,13 +306,13 @@ class LocateObject(Spell):
     """Describe or name an object that is familiar to you. You sense the direction to 
     the object's location, as long as that object is within 1,000 feet of you. If 
     the object is in motion, you know the direction of its movement.
-    
+
     The spell can 
     locate a specific object known to you, as long as you have seen it up close – 
     within 30 feet – at least once. Alternatively, the spell can locate the nearest 
     object of a particular kind, such as a certain kind of apparel, jewelry, 
     furniture, tool, or weapon.
-    
+
     This spell can't locate an object if any thickness 
     of lead, even a thin sheet, blocks a direct path between you and the object.
     """
@@ -331,7 +331,7 @@ class LocateObject(Spell):
 class Longstrider(Spell):
     """You touch a creature. The target's speed increases by 10 feet until the spell 
     ends.
-    
+
     At Higher Levels: When you cast this spell using a spell slot of 2nd 
     level or higher, you can target one additional creature for each slot level 
     above 1st.
@@ -346,5 +346,3 @@ class Longstrider(Spell):
     ritual = False
     magic_school = "Transmutation"
     classes = ('Bard', 'Druid', 'Ranger', 'Wizard')
-
-

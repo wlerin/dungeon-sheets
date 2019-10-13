@@ -7,7 +7,7 @@ class AbiDalzimsHorridWilting(Spell):
     saving throw. Constructs and undead aren't affected, and plants and water 
     elementals make this saving throw with disadvantage. A creature takes 12d8 
     necrotic damage on a failed save, or half as much damage on a successful one. 
-    
+
     Nonmagical plants in the area that aren't creatures, such as trees and shrubs, 
     wither and die instantly.
     """
@@ -26,13 +26,13 @@ class AbiDalzimsHorridWilting(Spell):
 class AbsorbElements(Spell):
     """1 Reaction, which you take when you take acid, cold, fire, lightning, or thunder
      damage
-    
+
     The spell captures some of the incoming energy, lessening its effect on
      you and storing it for your next melee attack. You have resistance to the 
     triggering damage type until the start of your next turn. Also, the first time 
     you hit with a melee attack on your next turn, the target takes an extra 1d6 
     damage of the triggering type, and the spell ends.
-    
+
     At Higher Levels: When you 
     cast this spell using a spell slot of 2nd level or higher, the extra damage 
     increases by 1d6 for each slot level above 1st.
@@ -54,7 +54,7 @@ class AcidSplash(Spell):
     Choose one creature within range, or choose two 
     creatures within range that are within 5 feet of each other. A target must 
     succeed on a Dexterity saving throw or take 1d6 acid damage.
-    
+
     At Higher Levels: 
     This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level 
     (3d6), and 17th level (4d6).
@@ -77,7 +77,7 @@ class AganazzarsScorcher(Spell):
     Each creature in the line must make a Dexterity saving 
     throw. A creature takes 3d8 fire damage on a failed save, or half as much damage
      on a successful one.
-    
+
     At Higher Levels: When you cast this spell using a spell 
     slot of 3rd level or higher, the damage increases by 1d8 for each slot level 
     above 2nd.
@@ -99,7 +99,7 @@ class Aid(Spell):
     Choose up to three 
     creatures within range. Each target's hit point maximum and current hit points 
     increase by 5 for the duration.
-    
+
     At Higher Levels: When you cast this spell 
     using a spell slot of 3rd level or higher, a target's hit points increase by an 
     additional 5 for each slot level above 2nd.
@@ -123,7 +123,7 @@ class Alarm(Spell):
     an alarm alerts you whenever a tiny or larger creature touches or enters the 
     warded area. When you cast the spell, you can designate creatures that won't set
      off the alarm. You also choose whether the alarm is mental or audible. 
-    
+
     A 
     mental alarm alerts you with a ping in your mind if you are within 1 mile of the
      warded area. This ping awakens you if you are sleeping. 
@@ -148,7 +148,7 @@ class AlterSelf(Spell):
     following options, the effects of which last for the duration of the spell. 
     While the spell lasts, you can end one option as an action to gain the benefits 
     of a different one.
-    
+
     Aquatic Adaptation. You adapt your body to an aquatic 
     environment, sprouting gills, and growing webbing between your fingers. You can 
     breathe underwater and gain a swimming speed equal to your walking speed.
@@ -187,7 +187,7 @@ class AnimalFriendship(Spell):
     Intelligence is 4 or higher, the spell fails. Otherwise, the beast must succeed 
     on a Wisdom saving throw or be charmed by you for the spell's duration. If you 
     or one of your companions harms the target, the spell ends.
-    
+
     At Higher Levels: 
     When you cast this spell using a spell slot of 2nd level or higher, you can 
     affect one additional beast for each slot level above 1st.
@@ -214,14 +214,14 @@ class AnimalMessenger(Spell):
     up to twenty-five words. The target beast travels for the duration of the spell 
     towards the specified location, covering about 50 miles per 24 hours for a 
     flying messenger or 25 miles for other animals.
-    
+
     When the messenger arrives, it 
     delivers your message to the creature that you described, replicating the sound 
     of your voice. The messenger speaks only to a creature matching the description 
     you gave. If the messenger doesn't reach its destination before the spell ends, 
     the message is lost, and the beast makes it way back to where you cast this 
     spell.
-    
+
     At Higher Levels: If you cast this spell using a spell slot of 3rd level
      or higher, the duration of the spell increases by 48 hours for each slot level 
     above 2nd.
@@ -244,8 +244,8 @@ class AnimalShapes(Spell):
     that you can see within range. You transform each target into the form of a 
     large or smaller beast with a challenge rating of 4 or lower. On subsequent 
     turns, you can use your actions to transform affected creatures into new forms. 
-    
-    
+
+
     The transformation lasts for the duration for each target, or until the target
      drops to 0 hit points or dies. You can choose a different form for each target.
      A target's game statistics are replaced by the statistics of the chosen beast, 
@@ -257,7 +257,7 @@ class AnimalShapes(Spell):
     reduce the creature's normal form to 0 hit points, it isn't knocked unconcious. 
     The creature is limited in the actions it can perform by the nature of its new 
     form, and it can't speak or cast spells. 
-     
+ 
     The target's gear melds into the new
      form. The target can't activate, wield, or otherwise benefit from any of its 
     equipment.
@@ -281,7 +281,7 @@ class AnimateDead(Spell):
     mimicry of life, raising it as an undead creature. The target becomes a skeleton
      if you chose bones or a zombie if you chose a corpse (the DM has the creature's
      game statistics). 
-    
+
     On each of your turns, you can use a bonus action to 
     mentally command any creature you made with this spell if the creature is within
      60 feet of you (if you control multiple creatures, you can command any or all 
@@ -291,14 +291,14 @@ class AnimateDead(Spell):
     corridor. If you issue no commands, the creature only defends itself against 
     hostile creatures. Once given an order, the creature continues to follow it 
     until its task is complete.
-    
+
     The creature is under your control for 24 hours, 
     after which it stops obeying any command you've given it. To maintain the 
     control of the creature for another 24 hours, you must cast this spell on the 
     creature again before the current 24-hour period ends. This use of the spell 
     reasserts your control over up to four creatures you have animated with this 
     spell, rather than animating a new one.
-    
+
     At Higher Levels: When you cast this 
     spell using a spell slot of 4th level or higher, you animate or reassert control
      over two additional undead creatures for each slot level above 3rd. Each of the
@@ -324,7 +324,7 @@ class AnimateObjects(Spell):
     objects. You can't animate any object larger than Huge. Each target animates and
      becomes a creature under your control until the spell ends or until reduced to 
     0 hit points. 
-    
+
     As a bonus action, you can mentally command any creature you 
     made with this spell if the creature is within 500 feet of you (if you control 
     multiple creatures, you can command any or all of them at the same time, issuing
@@ -333,7 +333,7 @@ class AnimateObjects(Spell):
      such as to guard a particular chamber or corridor. If you issue no commands, 
     the creature only defends itself against hostile creatures. Once given an order,
      the creature continues to follow it until its task is complete. 
-    
+
     Animated 
     Object Statistics 
     Tiny – HP: 20, AC: 18, Attack: +8 to hit, 1d4 + 4 damage, 
@@ -346,7 +346,7 @@ class AnimateObjects(Spell):
     14, Dex: 10 
     Huge – HP: 80, AC: 10, Attack: +8 to hit, 2d12 + 4 damage, Str: 18,
      Dex: 6 
-    
+
     An animated object is a construct with AC, hit points, attacks, 
     Strength, and Dexterity determine by its size. Its Constitution is 10 and its 
     Intelligence and Wisdom are 3, and its Charisma is 1. Its speed is 30 feet; if 
@@ -356,13 +356,13 @@ class AnimateObjects(Spell):
      It has blindsight with a radius of 30 feet and is blind beyond that distance. 
     When the animated object drops to 0 hit points, it reverts to its original 
     object form, and any remaining damage carries over to its original object form.
-     
-    
+
+
     If you command an object to attack, it can make a single melee attack against
      a creature within 5 feet of it. It makes a slam attack with an attack bonus and
      bludgeoning damage determine by its size. The DM might rule that a specific 
     object inflicts slashing or piercing damage based on its form.
-    
+
     At Higher 
     Levels: If you cast this spell using a spell slot of 6th level or higher, you 
     can animate two additional objects for each slot level above 5th.
@@ -386,7 +386,7 @@ class AntilifeShell(Spell):
     The barrier lasts for the duration. The barrier prevents an 
     affected creature from passing or reaching through. An affected creature can 
     cast spells or make attacks with ranged or reach weapons through the barrier. 
-    
+
     If you move so that an affect creature is forced to pass through the barrier, 
     the spell ends.
     """
@@ -413,25 +413,25 @@ class AntimagicField(Spell):
      deity, are suppressed in the sphere and can't protrude into it. A slot expended
      to cast a suppressed spell is consumed. While an effect is suppressed, it 
     doesn't function, but the time it spends suppressed counts against its duration.
-     
-    
+
+
     Targeted Effects. 
     Spells and other magical effects, such as magic missle and
      charm person, that target a creature or an object in the sphere have no effect 
     on that target. 
-    
+
     Areas of Magic. 
     The area of another spell or magical effect, 
     such as fireball, can't extend into the sphere. If the sphere overlaps an area 
     of magic, the part of the area that is covered by the sphere is suppressed. For 
     example, the flames created by a wall of fire are suppressed within the sphere, 
     creating a gap in the wall if the overlap is large enough. 
-    
+
     Spells. 
-     Any 
+      Any 
     active spell or other magical effect on a creature or an object in the sphere is
      suppressed while the creature or object is in it. 
-    
+
     Magic Items. 
     The 
     properties and powers of magic items are suppressed in the sphere. Forexample, a
@@ -441,21 +441,21 @@ class AntimagicField(Spell):
     of magic ammunition fully leaves the sphere (For example, if you fire a magic 
     arrow or throw a magic spear at a target outside the sphere), the magic of the 
     item ceases to be supressed as soon as it exits. 
-    
+
     Magical Travel. 
-    
+
     Teleportation and planar travel fail to work in the sphere, whether the sphere 
     is the destination or the departure point for such magical travel. A portal to 
     another location, world, or plane of existence, as well as an opening to an 
     extradimensional space such as that created by the rope trick spells, 
     temporarily closes while in the sphere. 
-    
+
     Creatures and Objects. 
     A creature or 
     object summoned or created by magic temporarily winks out of existence in the 
     sphere. Such a creature instantly reappears once the space the creature occupied
      is no longer withinthe sphere. 
-    
+
     Dispel Magic. 
     Spells and magical effects such
      as dispel magic have no effect on the sphere. Likewise, the spheres created by 
@@ -481,7 +481,7 @@ class Antipathysympathy(Spell):
     as red dragons, goblins, or vampires. You invest the target with an aura that 
     either attracts or repels the specified creatures for the duration. Choose 
     antipathy or sympathy as the aura's effect. 
-    
+
     Antipathy. 
     The enchantment causes
      creatures of the kind you designated to feel an intense urge to leave the area 
@@ -493,8 +493,8 @@ class Antipathysympathy(Spell):
     target. If the creature moves more than 60 feet from the target and can't see 
     it, the creature is no longer frightened, but the creature becomes frightened 
     again if it regains sight of the target or moves within 60 feet of it. 
-    
-    
+
+
     Sympathy. 
     The enchantment causes the specified creatures to feel an intense 
     urge to approach the target while within 60 feet of it or able to see it. When 
@@ -504,9 +504,9 @@ class Antipathysympathy(Spell):
      so, it can't willingly move away from the target. If the target damages or 
     otherwise harms an affected creature, the affected creature can make a 
     Wisdom saving throw to end the effect, as described below. 
-    
+
     Ending the Effect.
-     
+
     If an affected creature ends its turn while not within 60 feet of the target 
     or able to see it, the creature makes a Wisdom saving throw. On a successful 
     save, the creature is no longer affected by the target and recognizes the 
@@ -553,17 +553,17 @@ class ArcaneEye(Spell):
 
 class ArcaneGate(Spell):
     """You create linked teleportation portals that remain open for the duration. 
-    
+
     Choose two points on the ground that you can see, one point within 10 feet of 
     you and one point within 500 feet of you. A circular portal, 10 feet in 
     diameter, opens over each point. If the portal would open in the space occupied 
     by a creature, the spell fails, and the casting is lost. 
-    
-     The portals are two-
+
+      The portals are two-
     dimensional glowing rings filled with mist, hovering inches from the ground and 
     perpendicular to it at the points you choose. A ring is visible only from one 
     side (your choice), which is the side that functions as a portal. 
-     
+ 
     Any 
     creature or object entering the portal exits from the other portal as if the two
      were adjacent to each other; passing through a portal from the nonportal side 
@@ -591,7 +591,7 @@ class ArcaneLock(Spell):
      suppresses this spell for 1 minute. Otherwise, it is impassable until
      it is broken or the spell is dispelled or suppressed. Casting knock 
     on the object suppresses arcane lock for 10 minutes.
-    
+
     While affected 
     by this spell, the object is more difficult to break or force open; 
     the DC to break it or pick any locks on it increases by 10.
@@ -614,7 +614,7 @@ class ArmorOfAgathys(Spell):
     You gain 5 temporary hit points for the duration. If 
     a creature hits you with a melee attack while you have these hit points, the 
     creature takes 5 cold damage.
-    
+
     At Higher Levels: When you cast this spell using 
     a spell slot of 2nd level or higher, both the temporary hit points and the cold 
     damage increase by 5 for each slot
@@ -638,7 +638,7 @@ class ArmsOfHadar(Spell):
     area must make a Strength saving throw. On a failed save, a target takes 2d6 
     necrotic damage and can't take reactions until its next turn. On a successful 
     save, the creature takes half damage, but suffers no other effect.
-    
+
     At Higher 
     Levels: When you cast this spell using a spell slot of 2nd level or higher, the 
     damage increases by 1d6 for each slot level above 1st.
@@ -661,8 +661,8 @@ class AstralProjection(Spell):
     already on that plane). 
     The material body you leave behind is unconscious and 
     in a state of suspended animation; it doesn't need food or air and doesn't age. 
-    
-    
+
+
     Your astral body resembles your mortal form in almost every way, replicating 
     your game statistics and possessions. The principal difference is the addition 
     of a silvery cord that extends from between your shoulder blades and trails 
@@ -671,7 +671,7 @@ class AstralProjection(Spell):
     way home. If the cord is cut something that can happen only when an effect 
     specifically states that it does your soul and body are separated, killing you 
     instantly. 
-    
+
     Your astral form can freely travel through the Astral Plane and can
      pass through portals there leading to any other plane. If you enter a new plane
      or return to the plane you were on when casting this spell, your body 
@@ -681,8 +681,8 @@ class AstralProjection(Spell):
     your physical body, nor do they persist when you return to it. The spell ends 
     for you and your companions when you use your action to dismiss it. When the 
     spell ends, the affected creature returns to its physical body, and it awakens. 
-    
-    
+
+
     The spell might also end early for you or one of your companions. A successful
      dispel magic spell used against an astral or physical body ends the spell for 
     that creature. If a creature's original body or its astral form drops to 0 hit 
@@ -709,14 +709,14 @@ class Augury(Spell):
     employing some other divining tool, you receive an omen from an otherworldly 
     entity about the results of a specific course of action that you plan to take 
     within the next 30 minutes. The DM chooses from the following possible omens: 
-    
-    
+
+
     - Weal, for good results 
     - Woe, for bad results 
     - Weal and woe, for both good 
     and bad results 
     - Nothing, for results that aren't especially good or bad 
-    
+
     The
      spell doesn't take into account any possible circumstances that might change 
     the outcome, such as the casting of additional spells or the loss or gain of a 
@@ -738,7 +738,7 @@ class Augury(Spell):
 
 class AuraOfLife(Spell):
     """Life-preserving energy radiates from you in an aura with a 30-foot radius. 
-    
+
     Until the spll ends, the aura moves with you, centered on you. Each nonhostile 
     creature in the aura (including you) has resistance to necrotic damage, and its 
     hit point maximum can't be reduced. In addition, a nonhostile, living creature 
@@ -805,7 +805,7 @@ class Awaken(Spell):
     roots, vinces, creepers, and so forth, and it gains senses similar to a huamn's.
      Your DM chooses statistics appropriate for the awakened plant, such as the 
     statistics for the awakened shrub or the awakened tree. 
-    
+
     The awakened beast or 
     plant is charmed by you for 30 days or until you and your companions do anything
      harmful to it. When the charmed condition ends, the awakened creature chooses 
@@ -822,5 +822,3 @@ class Awaken(Spell):
     ritual = False
     magic_school = "Transmutation"
     classes = ('Bard', 'Druid')
-
-

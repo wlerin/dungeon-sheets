@@ -13,7 +13,7 @@ class WildShape(Feature):
     flying or swimming speed.
 
     2nd Level: Max CR 1/4, No Flying/Swimming (ex: Wolf)
-    
+
     4th Level: Max CR 1/2, No Flying (ex: Crocodile)
 
     8th Level: Max CR 1 (ex: Giant Eagle)
@@ -92,7 +92,7 @@ class BeastSpells(Feature):
     name = "Beast Spells"
     source = "Druid"
 
-    
+
 class Archdruid(Feature):
     """At 20th level, you can use your Wild Shape an unlimited number of times.
 
@@ -167,7 +167,7 @@ class _CircleSpells(Feature):
                     self.spells_known.extend(sps)
                     self.spells_prepared.extend(sps)
         super().__init__(owner=owner)
-    
+
 
 class ArcticSpells(_CircleSpells):
     """Your mystical connection to the land infuses you with the ability to cast
@@ -300,7 +300,7 @@ class CircleSpells(FeatureSelector, _CircleSpells):
     swamp
 
     underdark
-    
+
     """
     options = {'arctic': ArcticSpells,
                'coast': CoastSpells,
@@ -456,7 +456,7 @@ class HiddenPaths(Feature):
     fey use to traverse space in the blink of an eye. As a bonus action on your
     turn, you can teleport up to 60 feet to an unoccupied space you can
     see.
-    
+
     Alternatively, you can use your action to teleport one willing creature you
     touch up to 30 feet to an unoccupied space you can see. You can use this
     feature a number of times equal to your Wisdom modifier (minimum of once),
@@ -466,7 +466,7 @@ class HiddenPaths(Feature):
     name = "Hidden Paths"
     source = "Druid (Circle of the Moon)"
 
-    
+
 class WalkerInDreams(Feature):
     """At 14th level, the magic of the Feywild grants you the ability to travel
     mentally or physically through dreamlands. When you finish a short rest,
@@ -544,7 +544,7 @@ class MightySummoner(Feature):
     """Starting at 6th level, beasts and fey that you conjure are more resilient
     than normal. Any beast or fey summoned or created by a spell that you cast
     gains the. following benefits:
-    
+
     • The creature appears with more hit points than normal: 2 extra hit
     points per Hit Die it has.
 
@@ -583,5 +583,3 @@ class FaithfulSummons(Feature):
     """
     name = "Faithful Summons"
     source = "Druid (Circle of the Shepherd)"
-
-

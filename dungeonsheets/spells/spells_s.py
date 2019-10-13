@@ -5,7 +5,7 @@ class SacredFlame(Spell):
     """Flame-like radiance descends on a creature that you can see within range. The 
     target must succeed on a Dexterity saving throw or take 1d8 radiant damage. The 
     target gains no benefit from cover for this saving throw.
-    
+
     At Higher Levels: The
      spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level 
     (3d8), and 17th level (4d8).
@@ -29,7 +29,7 @@ class Sanctuary(Spell):
     first make a Wisdom saving throw. On a failed save, the creature must choose a 
     new target or lose the attack or spell. This spell doesn't protect the warded 
     creature from area effects, such as the explosion of a fireball.
-    
+
     If the warded 
     creature makes an attack or casts a spell that affects an enemy creature, this 
     spell ends.
@@ -69,7 +69,7 @@ class ScorchingRay(Spell):
     """You create three rays of fire and hurl them at targets within range. You can 
     hurl them at one target or several. Make a ranged spell attack for each ray. On 
     a hit, the target takes 2d6 fire damage.
-    
+
     At Higher Levels: When you cast this 
     spell using a spell slot of 3rd level or higher, you create one additional ray 
     for each slot level above 2nd.
@@ -92,31 +92,31 @@ class Scrying(Spell):
     modified by how well you know the target and the sort of physical connection you
      have to it. If a target knows you're casting this spell, it can fail the saving
      throw voluntarily if it wants to be observed.
-    
+
     Knowledge                 Save 
     Modifier
     Secondhand (you have heard of the target) +5
     Firsthand (you have met 
     the target)      +0
     Familiar (you know the target well)     -5
-    
+
     Connection 
-                   Save Modifier
+                                  Save Modifier
     Likeness or picture               -2
     Posession or 
     garment            -4
     Body part, lock of hair, bit of nail, or the like -10
-    
+
     On 
     a successful save, the target isn't affected, and you can't use this spell 
     against it again for 24 hours.
-    
+
     On a failed save, the spell creates an invisible
      sensor within 10 feet of the target. You can see and hear through the sensor as
      if you w ere there. The sensor moves with the target, remaining within 10 feet 
     of it for the duration. A creature that can see invisible objects sees the 
     sensor as a luminous orb about the size of your fist.
-    
+
     Instead of targeting a 
     creature, you can choose a location you have seen before as the target of this 
     spell. When you do, the sensor appears at that location and doesn't move.
@@ -137,14 +137,14 @@ class SearingSmite(Spell):
     """The next time you hit a creature with a melee weapon attack during the spell's 
     duration, your weapon flares with white-hot intensitity, and the attack deals an
      extra 1d6 fire damage to the target and causes the target to ignite in flames.
-    
-    
+
+
     At the start of each of its turns until the spell ends, the target must make a
      Constitution saving throw. On a failed save, it takes 1d6 fire damage. On a 
     successful save, the spells ends. If the target or a creature within 5 feet of 
     it uses an action to put out the flames, or if some other effect douses the 
     flames (such as the target being submerged in water), the spell ends.
-    
+
     At Higher
      Levels: When you cast this spell using a spell slot of 2nd level or higher, the
      initial extra damage dealt by the attack increases by 1d6 for each slot
@@ -184,7 +184,7 @@ class Seeming(Spell):
     You give each target you choose a new, illusory 
     appearance. An unwilling target can make a Charisma saving throw, and if it 
     succeeds, it is unaffected by this spell.
-    
+
     The spell disguises physicial 
     appearances as well as clothing, armor, weapons, and equipment. You can make 
     each creature seem 1 foot shorter or taller and appear thin, fat, or inbetween. 
@@ -192,14 +192,14 @@ class Seeming(Spell):
     same basic arrangement of limbs. Otherwise, the extent of the illusion is up to 
     you. The spell lasts for the duration, unless you use your action to dismiss it 
     sooner.
-    
+
     The changes wrought by this spell fail to hold up to physical 
     inspections. For example, if you use this spell to add a hat to a creature's 
     outfitm objects pass through the hat, and anyone who touches it would feel 
     nothing or would feel the creature's head and hair. If you use this spell to 
     appear thinner then you are, the hand of someone who reaches out to touch you 
     would bump into you while it was seemingly still in midair.
-    
+
     A creature can use 
     its action to inspect a target and make an Intelligence (Investigation) check 
     against your spell save DC. If it succeeds, it becomes aware that the target is 
@@ -223,7 +223,7 @@ class Sending(Spell):
     sender if it knows you, and can answer in a like manner immediately. The spell 
     enables creatures with Intelligence scores of at least 1 to understand the 
     meaning of your message.
-    
+
     You can send the message across any distance and even 
     to other planes of existence, but if the target is on a different plane than 
     you, there is a 5 percent chance that the message doesn't arrive.
@@ -246,11 +246,11 @@ class Sequester(Spell):
     When you cast the spell and touch the target, 
     it becomes invisible and can't be targeted by divination spells or perceived 
     through scrying sensors created by the divination of spells.
-    
+
     If the target is a
      crreature, it falls into a state of suspended animation. Time ceases to flow 
     for it, and it doesn't grow older.
-    
+
     You can set a condition for the spell to end
      early. The condition can be anything you choose, but it must occur or be 
     visible within 1 mile of the target. Examples include after 1,000 years or when 
@@ -278,7 +278,7 @@ class ShadowBlade(Spell):
     If you drop the weapon or throw it, it 
     dissipates at the end of the turn. Thereafter, while the spell persists, you can
      use a bonus action to cause the sword to reappear in your hand.
-    
+
     At Higher 
     Levels: When you cast this spell using a 3rd- or 4th-level spell slot, the 
     damage increases to 3d8. When you cast it using a 5th- or 6th-level spell slot, 
@@ -322,19 +322,19 @@ class ShapeWater(Spell):
     """You choose an area of water that you can see within range and that fits within a
      5-foot cube. 
     You manipulate it in one of the following ways:
-    
+
     - You 
     instantaneously move or otherwise change the flow of the water as you direct, up
      to 5 feet in any direction. This movement doesn't have enough force to cause 
     damage.
-    
+
     - You cause the water to form into simple shapes and animate at your 
     direction. This change lasts for 1 hour.
-    
+
     - You change the water's color or 
     opacity. The water must be changed in the same way throughout. This change lasts
      for 1 hour.
-    
+
     - You freeze the water, provided that there are no crea- tures in 
     it. The water unfreezes in 1 hour.
     If you cast this spell multiple times, you 
@@ -360,7 +360,7 @@ class Shapechange(Spell):
     creature can't be a construct or an undead, and you must have seen the sort of 
     creature at least once. You transform into an average example of that creature, 
     one without any class levels or the Spellcasting trait.
-    
+
     Your game statistics 
     are replaced by the statistics of the chosen creature, though you retain your 
     alignment and Intelligence, Wisdom, and Charisma scores You also retain all of 
@@ -368,20 +368,20 @@ class Shapechange(Spell):
     creature, If the creature has the same proficiency as you, and the bonus listed 
     in its statistics is higher than yours, use the creature's bonus in place of 
     yours. You can't use any legendary actions or lair actions of the new form.
-    
+
     You
      assume the hit points and Hit Dice of the new form. When you revert to your 
     normal, you return to the number of hit points you had before you transformed. 
     If you revert as a result of dropping to 0 hit points, any excess damage carries
      over to your normal form. As long as the excess damage doesn't reduce your 
     normal form to 0 hitpoints, you aren't knocked unconscious.
-    
+
     You retain the 
     benefit of any features from your class, race, or other source and can use them,
      provided that your new form is physically capable of doing so. You can't use 
     any special senses you have (for example, darkvision) unless your new form also 
     has that sense. You can only speak if the creature can normally speak.
-    
+
     When you
      transform, you choose whether your equipment falls to the ground, merges into 
     the new form, or is worn by it. Worn equipment functions as normal. The DM 
@@ -390,7 +390,7 @@ class Shapechange(Spell):
      shape or size to match the new form, and any equipment that the new form can't 
     wear must either fall to the ground or merge into your new form. Equipment that 
     merges has no effect in that state.
-    
+
     During this spell's duration, you can use 
     your action to assume a different form following the same restrictions and rules
      for the original form, with one exception: if your new form has more hit pints 
@@ -415,10 +415,10 @@ class Shatter(Spell):
      on a failed save, or half as much damage on a successful one. A creature made 
     of inorganic material such as stone, crystal, or metal has disadvantage on this 
     saving throw.
-    
+
     A nonmagical object that isn't being worn or carried also takes 
     the damage if it's in the spell's area.
-    
+
     At Higher Levels: When you cast this 
     spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for
      each slot level above 2nd.
@@ -438,7 +438,7 @@ class Shatter(Spell):
 class Shield(Spell):
     """Reaction trigger: You are hit by an attack or targeted by the magic missile 
     spell
-    
+
     An invisible barrier of magical force appears and protects you. Until the
      start of your next turn, you have a +5 bonus to AC, including against the 
     triggering attack, and you take no damage from magic missile.
@@ -499,7 +499,7 @@ class ShockingGrasp(Spell):
     attack roll if the target is wearing armor made of metal. On a hit, the target 
     takes 1d8 lightning damage, and it can't take reactions until the start of its 
     next turn.
-    
+
     At Higher Levels: The spell's damage increases by 1d8 when you reach
      5th level (2d8), 11th level (3d8), and 17th level (4d8).
     """
@@ -562,13 +562,13 @@ class SilentImage(Spell):
     that is no larger than a 15-foot cube. The image appears at a spot within range 
     and lasts for the duration. The image is purely visual; it isn't accompanied by 
     sound, smell, or other sensory effects.
-    
+
     You can use your action to cause the 
     image to move to any spot within range. As the image changes location, you can 
     alter its appearance so that its movements appear natural for the image. For 
     example, if you create an image of a creature and move it, you can alter the 
     image so that it appears to be walking.
-    
+
     Physical interaction with the image 
     reveals it to be an illusion, because things can pass through it. A creature 
     that uses its action to examine the image can determine that it is an illusion 
@@ -596,19 +596,19 @@ class Simulacrum(Spell):
     affected as a normal creature. It appears to be the same as the original, but it
      has half the creature's hit point maximum and is formed without any equipment. 
     Otherwise, the illusion uses all the statistics of the creature it duplicates.
-    
-    
+
+
     The simulacrum is friendly to you and creatures you designate. It obeys your 
     spoken commands, moving and acting in accordance with your wishes and acting on 
     your turn in combat. The simulacrum lacks the ability to learn or become more 
     powerful, so it never increases its level or other abilities, nor can it regain 
     expended spell slots.
-    
+
     If the simulacrum is damaged, you can repair it in an 
     alchemical laboratory, using rare herbs and minerals worth 100 gp per hit point 
     it regains. The simulacrum lasts until it drops to 0 hit points, at which point 
     it reverts to snow and melts instantly.
-    
+
     If you cast this spell again, any 
     currently active duplicates you created with this spell are instantly destroyed.
     """
@@ -668,7 +668,7 @@ class Sleep(Spell):
     many hit points of creatures this spell can affect. Creatures within 20 feet of 
     a point you choose within range are affected in ascending order of their current
      hit points (ignoring unconscious creatures).
-    
+
     Starting with the creature that 
     has the lowest current hit points, each creature affected by this spell falls 
     unconscious until the spell ends, the sleeper takes damage, or someone uses an 
@@ -678,7 +678,7 @@ class Sleep(Spell):
     that creature to be affected.
     Undead and creatures immune to being charmed 
     aren't affected by this spell.
-    
+
     At Higher Levels: When you cast this spell using
      a spell slot of 2nd level or higher, roll an additional 2d8 for each slot level
      above 1st.
@@ -699,12 +699,12 @@ class SleetStorm(Spell):
     """Until the spell ends, freezing rain and sleet fall in a 20-foot-tall cylinder 
     with a 40-foot radius centered on a point you choose within range. The area is 
     heavily obscured, and exposed flames in the area are doused.
-    
+
     The ground in the 
     area is covered with slick ice, making it difficult terrain. When a creature 
     enters the spell's area for the first time on a turn or starts its turn there, 
     it must make a Dexterity saving throw. On a failed save, it falls prone.
-    
+
     If a 
     creature is concentrating in the spell's area, the creature must make a 
     successful Constitution saving throw against your spell save DC or lose 
@@ -726,18 +726,18 @@ class Slow(Spell):
     """You alter time around up to six creatures of your choice in a 40-foot cube 
     within range. Each target must succeed on a Wisdom saving throw or be affected 
     by this spell for the duration.
-    
+
     An affected target's speed is halved, it takes 
     a -2 penalty to AC and Dexterity saving throws, and it can't use reactions. On 
     its turn, it can use either an action or a bonus action, not both. Regardless of
      the creature's abilities or magic items, it can't make more than one melee or 
     ranged attack during its turn.
-    
+
     If the creature attempts to cast a spell with a 
     casting time of 1 action, roll a d20. On an 11 or higher, the spell doesn't take
      effect until the creature's next turn, and the creature must use its action on 
     that turn to complete the spell. If it can't, the spell is wasted.
-    
+
     A creature 
     affected by this spell makes another Wisdom saving throw at the end of its turn.
      On a successful save, the effect ends for it.
@@ -811,7 +811,7 @@ class SnillocsSnowballSwarm(Spell):
 class SoulCage(Spell):
     """1 reaction, which you take when a humanoid you can see within 60 feet of you 
     dies
-    
+
     This spell snatches the soul of a humanoid as it dies and traps it inside 
     the tiny cage you use for the material component. A stolen soul remains inside 
     the cage until the spell ends or until you destroy the cage, which ends the 
@@ -896,7 +896,7 @@ class SpeakWithDead(Spell):
     within range, allowing it to answer the questions you pose. The corpse must 
     still have a mouth and can't be undead. The spell fails if the corpse was the 
     target of this spell within the last 10 days.
-    
+
     Until the spell ends, you can ask
      the corpse up to five questions. The corpse knows only what it knew in life, 
     including the languages it knew. Answers are usually brief, cryptic, or 
@@ -924,22 +924,22 @@ class SpeakWithPlants(Spell):
      You can question plants about events in the spell's area within the past day, 
     gaining information about creatures that have passed, weather, and other 
     circumstances.
-    
+
     You can also turn difficult terrain caused by plant growth (such
      as thickets and undergrowth) into ordinary terrain that lasts for the duration.
      Or you can turn ordinary terrain where plants are present into difficult 
     terrain that lasts for the duration, causing vines and branches to hinder 
     pursuers, for example.
-    
+
     Plants might be able to perform other tasks on your 
     behalf, at the DM's discretion. The spell doesn't enable plants to uproot 
     themselves and move about, but they can freely move branches, tendrils, and 
     stalks.
-    
+
     If a plant creature is in the area, you can communicate with it as if 
     you shared a common language, but you gain no magical ability to influence it.
-    
-    
+
+
     This spell can cause the plants created by the entangle spell to release a 
     restrained creature.
     """
@@ -978,7 +978,7 @@ class SpikeGrowth(Spell):
     sprouts hard spikes and thorns. The area becomes difficult terrain for the 
     duration. When a creature moves into or within the area, it takes 2d4 piercing 
     damage for every 5 feet it travels.
-    
+
     The transformation of the ground is 
     camouflaged to look natural. Any creature that can't see the area at the time 
     the spell is case must make a Wisdom (Perception) check against your spell save 
@@ -1001,7 +1001,7 @@ class SpiritGuardians(Spell):
     They flit around you to a distance of 15 
     feet for the duration. If you are good or neutral, their spectral form appears 
     angelic or fey (your choice). If you are evil, they appear fiendish.
-    
+
     When you 
     cast this spell, you can designate any number of creatures you can see to be 
     unaffected by it. An affected creature's speed is halved in the area, and when 
@@ -1009,7 +1009,7 @@ class SpiritGuardians(Spell):
     there, it must make a Wisdom saving throw. On a failed save, the creature takes 
     3d8 radiant damage (if you are good or neutral) or 3d8 necrotic damage (if you 
     are evil). On a successful save, the creature takes half as much damage.
-    
+
     At 
     Higher Levels: When you cast this spell using a spell slot of 4th level or 
     higher, the damage increases by 1d8 for each slot level above 3rd.
@@ -1032,16 +1032,16 @@ class SpiritualWeapon(Spell):
     When you cast the spell, you can make a 
     melee spell attack against a creature within 5 feet of the weapon. On a hit, the
      target takes force damage equal to 1d8 + your spellcasting ability modifier.
-    
-    
+
+
     As a bonus action on your turn, you can move the weapon up to 20 feet and repeat
      the attack against a creature within 5 feet of it.
-    
+
     The weapon can take 
     whatever form you choose. Clerics of deities who are associated with a 
     particular weapon (as St. Cuthbert is known for his mace and Thor for his 
     hammer) make this spell's effect resemble that weapon.
-    
+
     At Higher Levels: When 
     you cast this spell using a spell slot of 3rd level or higher, the damage 
     increases by 1d8 for every two slot levels above the 2nd.
@@ -1101,13 +1101,13 @@ class StinkingCloud(Spell):
     """You create a 20-foot-radius sphere of yellow, nauseating gas centered on a point
      within range. The cloud spreads around corners, and its area is heavily 
     obscured. The cloud lingers in the air for the duration.
-    
+
     Each creature that is 
     completely within the cloud at the start of its turn must make a Constitution 
     saving throw against poison. On a failed save, the creature spends its action 
     that turn retching and reeling. Creatures that don't need to breathe or are 
     immune to poison automatically succeed on this saving throw.
-    
+
     A moderate wind 
     (at least 10 miles per hour) disperses the cloud after 4 rounds. A strong wind 
     (at least 20 miles per hour) disperses it after 1 round.
@@ -1168,26 +1168,26 @@ class StormOfVengeance(Spell):
     winds roar. Each creature under the cloud (no more than 5,000 feet beneath the 
     cloud) when it appears must make a Constitution saving throw. On a failed save, 
     a creature takes 2d6 thunder damage and becomes deafened for 5 minutes.
-    
+
     Each 
     round you maintain concentration on this spell, the storm produces additional 
     effects on your turn.
-    
+
     Round 2
     Acidic rain falls from the cloud. Each creature 
     and object under the cloud takes 1d6 acid damage.
-    
+
     Round 3You call six bolts of 
     lightning from the cloud to strike six creatures or objects of your choice 
     beneath the cloud. A given creature or object can't be struck by more than one 
     bolt. A struck creature must make a Dexterity saving throw. The creature takes 
     10d6 lightning damage on a failed save, or half as much damage on a successful 
     one.
-    
+
     Round 4
     Hailstones rain down from the cloud. Each creature under the cloud
      takes 2d6 bludgeoning damage.
-    
+
     Round 5-10
     Gusts and freezing rain assail the 
     area under the cloud. the area becomes difficult terrain and is heavily 
@@ -1246,19 +1246,19 @@ class Suggestion(Spell):
     be worded in such a manner as to make the course of action sound reasonable. 
     Asking the creature to stab itself, throw itself onto a spear, immolate itself, 
     or do some other obviously harmful act ends the spell.
-    
+
     The target must make a 
     Wisdom saving throw. On a failed save, it purses the course of action you 
     described to the best of its ability. The suggested course of action can 
     continue for the entire duration. If the suggested activity can be completed in 
     a shorter time, the spell ends when the subject finishes what it was asked to 
     do.
-    
+
     You can also specify conditions that will trigger a special activity during
      the duration. For example, you might suggest that a knight give her warhorse to
      the first beggar she meets. If the condition isn't met before the spell 
     expires, the activity isn't preformed.
-    
+
     If you or any of your companions damage 
     the target, the spell ends.
     """
@@ -1299,7 +1299,7 @@ class SummonGreaterDemon(Spell):
     summoned demon can't cross the circle or harm it, and it can't target anyone 
     within it. Using the material component in this manner consumes it when the 
     spell ends.
-    
+
     At Higher Levels: When you cast this spell using a spell slot of 
     5th level or higher, the challenge rating increases by 1 for each slot level 
     above 4th.
@@ -1325,7 +1325,7 @@ class SummonLesserDemons(Spell):
     3–4 / Four demons of challenge rating 1/2 or 
     lower
     5–6 / Eight demons of challenge rating 1/4 or lower
-    
+
     The DM chooses the 
     demons, such as manes or dretches, and you choose the unoccupied spaces you can 
     see within range where they appear. A summoned demon disappears when it drops to
@@ -1339,7 +1339,7 @@ class SummonLesserDemons(Spell):
     encompass your space. While the spell lasts, the summoned demons can't cross the
      circle or harm it, and they can't target anyone within it. Using the material 
     component in this manner consumes it when the spell ends.
-    
+
     At Higher Levels: 
     When you cast this spell using a spell slot of 6th or 7th level, you summon 
     twice as many demons. If you cast it using a spell slot of 8th or 9th level, you
@@ -1364,11 +1364,11 @@ class Sunbeam(Spell):
     failed save, a creature takes 6d8 radiant damage and is blinded until your next 
     turn. On a successful save, it takes half as much damage and isn't blinded by 
     this spell. Undead and oozes have disadvantage on this saving throw.
-    
+
     You can 
     create a new line of radiance as your action on any turn until the spell ends.
-    
-    
+
+
     For the duration, a mote of brilliant radiance shines in your hand. It sheds 
     bright light in a 30-foot radius and dim light for an additional 30 feet. The 
     light is sunlight.
@@ -1392,11 +1392,11 @@ class Sunburst(Spell):
      On a failed save, a creature takes 12d6 radiant damage and is blinded for 1 
     minute. On a successful save, it takes half as much damage and isn't blinded by 
     this spell. Undead and oozes have disadvantage on this saving throw.
-    
+
     A creature
      blinded by this spell makes another Constitution saving throw at the end of 
     each of its turns. On a successful save, it is no longer blinded.
-    
+
     This spell 
     dispels any darkness in its area that was created by a spell.
     """
@@ -1415,7 +1415,7 @@ class Sunburst(Spell):
 class SwiftQuiver(Spell):
     """You transmute your quiver so it produces an endless supply of nonmagical 
     ammunition, which seems to leap into your hand when you reach for it.
-    
+
     On each 
     of your turns until the spell ends, you can use a bonus action to make two 
     attacks with a weapon that uses ammunition from the quiver. Each time you make 
@@ -1441,7 +1441,7 @@ class SwordBurst(Spell):
     Each 
     creature within range, other than you, must succeed on a Dexterity saving throw 
     or take 1d6 force damage.
-    
+
     At Higher Levels: This spell's damage increases by 
     1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).
     """
@@ -1466,11 +1466,11 @@ class Symbol(Spell):
     10 feet in diameter. If you choose an object, that object must remain in its 
     place; if the object is moved more than 10 feet from where you cast this spell, 
     the glyph is broken, and the spell ends without being triggered.
-    
+
     The glyph is 
     nearly invisible, requiring an Intelligence (Investigation) check against your 
     spell save DC to find it.
-    
+
     You decide what triggers the glyph when you cast the 
     spell. For glyphs inscribed on a surface, the most typical triggers include 
     touching or stepping on the glyph, removing another object covering it, 
@@ -1478,25 +1478,25 @@ class Symbol(Spell):
     holds it. For glyphs inscribed within an object, the most common triggers are 
     opening the object, approaching within a certain distance of it, or seeing or 
     reading the glyph.
-    
+
     You can further refine the trigger so the spell is activated
      only under certain circumstances or according to a creature's physical 
     characteristics (such as height or weight), or physical kind (for example, the 
     ward could be set to affect hags or shapechangers). You can also specify 
     creatures that don't trigger the glyph, such as those who say a certain 
     password.
-    
+
     When you inscribe the glyph, choose one of the options below for ist 
     effect. Once triggered, the glyph glows, filling a 60-foot-radius sphere with 
     dim light for 10 minutes, after which time the spell ends. Each creature in the 
     sphere when the glyph activates is targeted by its effect, as is a creature that
      enters the sphere for the first time on a turn or ends its turn there.
-    
+
     Death
-    
+
     Each target must make a Constitution saving throw, taking 10d10 necrotic damage 
     on a failed save, or half as much damage on a successful save.
-    
+
     Discord
     Each 
     target must make a Constitution saving throw. On a failed save, a target bickers
@@ -1508,30 +1508,30 @@ class Symbol(Spell):
     for 1 minute on a failed save. While frightened, the target drops whatever it is
      holding and must move at least 20 feet away from the glyph on each of ist 
     turns, if able. 
-    
+
     Hopelessness
     Each target must make a Charisma saving throw. On
      a failed save, the target is overwhelmed with despair for 1 minute. During this
      time, it can't attack or target any creature with harmful abilities, spells, or
      other magical effects.
-    
+
     Insanity
     Each target must make an Intelligence saving 
     throw. On a failed save, the target is driven insane for 1 minute. An insane 
     creature can't take actions, can't understand what other creatures say, can't 
     read, and speaks only in gibberish. The DM controls its movement, which is 
     erratic.
-    
+
     Pain
     Each target must make a Constitution saving throw and becomes 
     incapacitated with excruciating pain for 1 minute on a failed save.
-    
+
     Sleep
     Each 
     target must make a Wisdom saving throw and falls unconscious for 10 minutes on a
      failed save. A creature awakens if it takes damage or if someone uses an action
      to shake or slap it awake.
-    
+
     Stunning
     Each target must make a Wisdom saving 
     throw and becomes stunned for 1 minute on a failed save.
@@ -1571,5 +1571,3 @@ class SynapticStatic(Spell):
     ritual = False
     magic_school = "Enchantment"
     classes = ('Bard', 'Sorcerer', 'Warlock', 'Wizard')
-
-

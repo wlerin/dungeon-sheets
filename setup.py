@@ -18,7 +18,7 @@ setup(name='dungeonsheets',
       author_email='canismarko@gmail.com',
       license='GPLv3',
       url='https://github.com/canismarko/dungeon-sheets',
-      download_url = 'https://github.com/canismarko/dungeon-sheets/archive/master.zip',
+      download_url='https://github.com/canismarko/dungeon-sheets/archive/master.zip',
       packages=find_packages(),
       package_data={
           'dungeonsheets': ['forms/*pdf', 'forms/*.tex', 'forms/*.txt',
@@ -43,4 +43,4 @@ setup(name='dungeonsheets',
           'Programming Language :: Python :: 3.7',
           'Topic :: Games/Entertainment :: Role-Playing',
       ],
-     )
+      )

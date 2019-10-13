@@ -1,14 +1,14 @@
 def create_spell(**params):
     """Create a new subclass of ``Spell`` with given default parameters.
-    
+
     Useful for spells that haven't been entered into the ``spells.py``
     file yet.
-    
+
     Parameters
     ----------
     params : optional
       Saved as attributes of the new class.
-    
+
     Returns
     -------
     NewSpell
@@ -33,7 +33,7 @@ class Spell():
     _concentration = False
     magic_school = ""
     classes = ()
-    
+
     def __str__(self):
         if len(self.components) == 0:
             s = self.name
@@ -45,7 +45,7 @@ class Spell():
         if len(indicators):
             s += f' ({", ".join(indicators)})'
         return s
-    
+
     def __repr__(self):
         return "\"{:s}\"".format(self.name)
 
@@ -54,14 +54,14 @@ class Spell():
 
     def __hash__(self):
         return 0
-    
+
     @property
     def component_string(self):
         s = f'{", ".join(self.components)}'
         if "M" in self.components:
             s += f' ({self.materials})'
         return s
-    
+
     @property
     def concentration(self):
         return ('concentration' in self.duration.lower()) or self._concentration
@@ -73,4 +73,3 @@ class Spell():
     @property
     def special_material(self):
         return ('worth at least' in self.materials.lower())
-

@@ -3,6 +3,7 @@ from unittest import TestCase
 from dungeonsheets.exceptions import DiceError
 from dungeonsheets import dice
 
+
 class TestDice(TestCase):
 
     def test_read_dice_str(self):

@@ -34,7 +34,7 @@ class MoonCircle(SubClass):
     haunt the deepest parts of the wilderness, where they might go for weeks on
     end before crossing paths with another humanoid creature, let alone another
     druid.
-    
+
     Changeable as the moon, a druid of this circle might prowl as a great cat
     one night, soar over the treetops as an eagle the next day, and crash
     through the undergrowth in bear form to drive off a trespassing
@@ -159,7 +159,7 @@ class Druid(CharClass):
             return None
         for sc in self.subclasses_available:
             if ((subclass_str.lower() == sc.circle.lower())
-                or (subclass_str.lower() in sc.name.lower())):
+                    or (subclass_str.lower() in sc.name.lower())):
                 return sc(owner=self.owner)
         return None
 
@@ -181,7 +181,7 @@ class Druid(CharClass):
     def all_wild_shapes(self):
         """Return all wild shapes, regardless of validity."""
         return self._wild_shapes
-    
+
     @property
     def wild_shapes(self):
         """Return a list of valid wild shapes for this Druid."""
@@ -191,7 +191,7 @@ class Druid(CharClass):
             if self.can_assume_shape(shape):
                 valid_shapes.append(shape)
         return valid_shapes
-    
+
     @wild_shapes.setter
     def wild_shapes(self, new_shapes):
         actual_shapes = []
@@ -211,23 +211,23 @@ class Druid(CharClass):
             actual_shapes.append(new_shape)
         # Save the updated list for later
         self._wild_shapes = actual_shapes
-        
-    def can_assume_shape(self, shape: monsters.Monster)-> bool:
+
+    def can_assume_shape(self, shape: monsters.Monster) -> bool:
         """Determine if a given shape meets the requirements for transforming.
-        
+
         See Pg 66 of player's handbook.
-        
+
         Parameters
         ==========
         shape
           A monster that the Druid wishes to transform into.
-        
+
         Returns
         =======
         can_assume
           True if the monster meets the C/R, swim and flying speed
           restrictions.
-        
+
         """
         # Determine acceptable states based on druid level
         if self.level < 2:
@@ -258,15 +258,14 @@ class Druid(CharClass):
         valid_fly = (max_fly is None or shape.fly_speed <= max_fly)
         can_assume = shape.is_beast and valid_cr and valid_swim and valid_fly
         return can_assume
-    
+
     @property
     def spells(self):
         return tuple(S() for S in self.spells_prepared)
-    
+
     @spells.setter
     def spells(self, val):
         if len(val) > 0:
             warnings.warn("Druids cannot learn spells, "
                           "use ``spells_prepared`` instead.",
                           RuntimeWarning)
-

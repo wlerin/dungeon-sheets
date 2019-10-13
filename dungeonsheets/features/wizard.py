@@ -114,7 +114,7 @@ class ConjurationSavant(Feature):
     """
     name = "Conjuration Savant"
     source = "Wizard (School of Conjuration)"
-    
+
 
 class MinorIllusion(Feature):
     """Starting at 2nd level when you select this school, you can use your action
@@ -320,7 +320,7 @@ class EvocationSavant(Feature):
     name = "Evocation Savant"
     source = "Wizard (School of Evocation)"
 
-    
+
 class SculptSpells(Feature):
     """Beginning at 2nd level, you can create pockets of relative safety within the
     effects of your evocation spells. When you cast an evocation spell that
@@ -478,7 +478,7 @@ class InuredToUndeath(Feature):
     """
     name = "Inured to Undeath"
     source = "Wizard (School of Necromancy)"
-    
+
 
 class CommandUndead(Feature):
     """Starting at 14th level, you can use magic to bring undead under your
@@ -534,7 +534,7 @@ class TransmutersStone(Feature):
     • Darkvision out to a range of 60 feet, as described in chapter 8
 
     • An increase to speed of 10 feet while the creature is unencumbered
-    
+
     • Proficiency in Constitution saving throws
 
     • Resistance to acid, cold, fire, lightning, or thunder damage (your

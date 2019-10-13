@@ -46,17 +46,17 @@ class Earthquake(Spell):
     For the duration, an intense tremor rips through the ground in a 
     100-foot- radius circle centered on that point and shakes creatures and 
     structures in contact with the ground in that area. 
-    
+
     The ground in the area 
     becomes difficult terrain. Each creature on the ground that is concentrating 
     must make a Constitution saving throw. On a failed save, the creature's 
     concentration is broken. 
-    
+
     When you cast this spell and at the end of each turn 
     you spend concentrating on it, each creature on the ground in the area must make
      a Dexterity saving throw. On a failed save, the creature is knocked prone. 
-    
-    
+
+
     This spell can have additional effects depending on the terrain in the area, as 
     determined by the DM. 
     Fissures. 
@@ -69,7 +69,7 @@ class Earthquake(Spell):
     fissure's edge as it opens. 
     A fissure that opens beneath a structure causes it 
     to automatically collapse (see below). 
-    
+
     Structures. 
     The tremor deals 50 
     bludgeoning damage to any structure in contact with the ground in the area when 
@@ -97,8 +97,8 @@ class Earthquake(Spell):
 class EldritchBlast(Spell):
     """A beam of crackling energy streaks toward a creature within range. Make a ranged
      spell attack against the target. On a hit, the target takes 1d10 force damage.
-    
-    
+
+
     At Higher Levels: The spell creates more than one beam when you reach higher 
     levels: 
     Two beams at 5th level
@@ -128,7 +128,7 @@ class ElementalBane(Spell):
      first time each turn the affected target takes damage of the chosen type, the 
     target takes an extra 2d6 damage of that type. Moreover, the target loses any 
     resistance to that damage type until the spell ends.
-    
+
     At Higher Levels: When you
      cast this spell using a spell slot of 5th level or higher, you can target one 
     additional creature for each slot level above 4th. The creatures must be within 
@@ -152,7 +152,7 @@ class ElementalWeapon(Spell):
     following damage types: acid, cold, fire, lightning, or thunder. For the 
     duration, the weapon has a +1 bonus to attack rolls and deals an extra 1d4 
     damage of the chosen type when it hits.
-    
+
     At Higher Levels: When you cast this 
     spell using a spell slot of 5th or 6th level, the bonus to attack rolls 
     increases to +2 and the extra damage increases to 2d4. 
@@ -206,8 +206,8 @@ class Enervation(Spell):
     anything else, if the target is ever outside the spell's range, or if the target
      has total cover from you. Whenever the spell deals damage to a target, you 
     regain hit points equal to half the amount of necrotic damage the target takes.
-    
-    
+
+
     At Higher Levels: When you cast this spell using a spell slot of 6th level or 
     higher, the damage increases by 1d8 for each slot level above 5th.
     """
@@ -240,7 +240,7 @@ class EnhanceAbility(Spell):
     The target thas advantage on Intelligence checks.
     - Owl's Wisdom. The target has
      advantage on Wisdom checks.
-    
+
     At Higher Levels: When you cast this spell using a
      spell slot of 3rd level or higher, you can target one additional creature for 
     each slot level above 2nd.
@@ -262,11 +262,11 @@ class Enlargereduce(Spell):
     smaller for the duration. Choose either a creature or an object that is neither 
     worn nor carried. If the target is unwilling, it can make a Constitution saving 
     throw. On a success, the spell has no effect. 
-    
+
     If the target is a creature, 
     everything it is wearing and carrying changes size with it. Any item dropped by 
     an affected creature returns to normal size at once. 
-    
+
     Enlarge 
     The target's 
     size doubles in all dimensions, and its weight is multiplied by eight. This 
@@ -276,8 +276,8 @@ class Enlargereduce(Spell):
      ends, the target also has advantage on Strength checks and Strength saving 
     throws. The target's weapons also grow to match its new size. While these 
     weapons are enlarged, the target's attack with them deal 1d4 extra damage. 
-    
-    
+
+
     Reduce 
     The target's size is halved in all dimensions, and its weight is reduced
      to one-eighth of normal. This reduction decreases its size by one category – 
@@ -305,13 +305,13 @@ class EnsnaringStrike(Spell):
     must succeed on a Strength saving throw or be restrained by the magical vines 
     until the spell ends. A Large or larger creature has advantage on this saving 
     throw. If the target succeeds on the save, the vines shrivel away. 
-    
+
     While 
     restrained by this spell, the target takes 1d6 piercing damage at the start of 
     each of its turns. A creature restrained by the vines or one that can touch the 
     creature can use its action to make a Strength check against your spell save DC.
      On a success, the target is freed.
-    
+
     At Higher Levels: If you cast this spell 
     using a spell slot of 2nd level or higher, the damage increases by 1d6 for each 
     slot level above 1st.
@@ -332,13 +332,13 @@ class Entangle(Spell):
     """Grasping weeds and vines sprout from the ground in a 20-foot square starting 
     from a point within range. For the duration, these plants turn the ground in the
      area into difficult terrain. 
-    
+
     A creature in the area when you cast the spell 
     must succeed on a Strength saving throw or be restrained by the entangling 
     plants until the spell ends. A creature restrained by the plants can use its 
     action to make a Strength check against your spell save DC. On a success, it 
     frees itself. 
-    
+
     When the spell ends, the conjured plants wilt away.
     """
     name = "Entangle"
@@ -383,7 +383,7 @@ class EruptingEarth(Spell):
      Additionally, the ground in that area becomes difficult terrain until cleared 
     away. Each 5-foot-square portion of the area requires at least 1 minute to clear
      by hand.
-    
+
     At Higher Levels: When you cast this spell using a spell slot of 4rd 
     level or higher, the damage increases by 1d12 for each slot level above 3rd.
     """
@@ -406,13 +406,13 @@ class Etherealness(Spell):
     you can move in any direction. If you move up or down, every foot of movement 
     costs an extra foot. You can see and hear the plan you originated from, but 
     everything there looks gray, and you can't see anything more than 60 feet away.
-     
-    
+
+
     While on the Ethereal Plane, you can only affect and be affected by other 
     creatures on that plane. Creatures that aren't on the Ethereal Plance can't 
     perceive you and can't interact with you, unless a special ability or magic has 
     given them the ability to do so. 
-    
+
     You ignore all objects and effects that 
     aren't on the Ethereal Plane, allowing you to move through objects you perceive 
     on the plan you originated from. When the spell ends, you immediately return to 
@@ -420,11 +420,11 @@ class Etherealness(Spell):
     the same spot as a solid object or creature when this happens, you are 
     imediately shunted to the neares unoccupied space that you can occupy and take 
     force damage equal to twice the number of feet you are moved. 
-    
+
     This spell has 
     no effect if you cast it while you are on the Ethereal Plane or a plane that 
     doesn't border it, such as one of the Outer Planes.
-    
+
     At Higher Levels: When you 
     cast this spell using a spell slot of 8th level or higher, you can target up to 
     three willing creatures (including you) for each slot level above 7th. The 
@@ -446,13 +446,13 @@ class EvardsBlackTentacles(Spell):
     """Squirming, ebony tentacles fill a 20-foot square on ground that you can see 
     within range. For the duration, these tentacles turn the ground in the area into
      difficult terrain. 
-    
+
     When a creature enters the affected area for the first 
     time on a turn or starts its turn there, the creature must succeed on a 
     Dexterity saving throw or take 3d6 bludgeoning damage and be restrained by the 
     tentacles until the spell ends. A creature that starts its turn in the area and 
     is already restrained by the tentacles takes 3d6 bludgeoning damage. 
-    
+
     A 
     creature restrained by the tentacles can use its action to make a Strength or 
     Dexterity check (its choice) against your spell save DC. On a success, it frees 
@@ -494,19 +494,19 @@ class Eyebite(Spell):
      choice for the duration. On each of your turns until the spell ends, you can 
     use your action to target another creature but can't target a creature again if 
     it has succeeded on a saving throw against this casting of eyebite. 
-    
+
     Asleep 
-    
+
     The target galls unconscious. It wakes up if it takes any damage or if another 
     creature uses its action to shake the sleeper awake. 
-    
+
     Panicked 
     The target is 
     frightened of you. On each of its turns, the frightened creature must take the 
     Dash action and move away from you by the safest and shortest available route, 
     unless there is nowhere to move. If the target moves to a place at least 60 feet
      away from you where it can no longer see you, this effect ends. 
-    
+
     Sickened 
     The
      target has disadvantage on attack rolls and ability checks. At the end of each 
@@ -523,5 +523,3 @@ class Eyebite(Spell):
     ritual = False
     magic_school = "Necromancy"
     classes = ('Bard', 'Sorcerer', 'Warlock', 'Wizard')
-
-

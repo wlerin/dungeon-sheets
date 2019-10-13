@@ -39,10 +39,10 @@ class Race():
     @property
     def spells_prepared(self):
         return self.spells_known
-    
+
     def __str__(self):
         return self.name
-    
+
     def __repr__(self):
         return "\"{:s}\"".format(self.name)
 
@@ -129,7 +129,7 @@ class LightfootHalfling(_Halfling):
     name = "Lightfoot Halfling"
     charisma_bonus = 1
     features = _Halfling.features + (feats.NaturallyStealthy,)
-    
+
 
 class StoutHalfling(_Halfling):
     name = "Stout Halfling"
@@ -179,7 +179,7 @@ class ForestGnome(_Gnome):
     features = _Gnome.features + (feats.NaturalIllusionist,
                                   feats.SpeakWithSmallBeasts)
     spells_known = (spells.MinorIllusion,)
-    
+
 
 class RockGnome(_Gnome):
     name = "Rock Gnome"
@@ -248,7 +248,7 @@ class _Aasimar(Race):
                 feats.HealingHands, feats.LightBearer)
     spells_known = (spells.Light,)
 
-    
+
 # Protector Aasimar
 class ProtectorAasimar(_Aasimar):
     name = "Protector Aasimar"
@@ -393,7 +393,7 @@ class AirGenasi(_Genasi):
     features = (feats.UnendingBreath,
                 feats.MingleWithTheWind)
 
-    
+
 class EarthGenasi(_Genasi):
     name = "Earth Genasi"
     strength_bonus = 1
@@ -414,6 +414,7 @@ class WaterGenasi(_Genasi):
     features = (feats.AcidResistance, feats.Amphibious,
                 feats.CallToTheWave)
 
+
 class BugBear(Race):
     name = "BugBear"
     strength_bonus = 2
@@ -425,6 +426,7 @@ class BugBear(Race):
     skill_proficiencies = ("stealth", )
     languages = ("Common", "Goblin")
 
+
 class Goblin(Race):
     name = "Goblin"
     dexterity_bonus = 2
@@ -434,6 +436,7 @@ class Goblin(Race):
     features = (feats.Darkvision, feats.FuryOfTheSmall,
                 feats.NimbleEscape)
     languages = ("Common", "Goblin")
+
 
 class HobGoblin(Race):
     name = "HobGoblin"
@@ -445,6 +448,7 @@ class HobGoblin(Race):
     proficiencies_text = ('light armor', '[Chose two martial melee weapons]')
     languages = ("Common", "Goblin")
 
+
 class Kobold(Race):
     name = "Kobold"
     dexterity_bonus = 2
@@ -454,6 +458,7 @@ class Kobold(Race):
     features = (feats.Darkvision, feats.PackTactics,
                 feats.GrovelCowerAndBeg, feats.SunlightSensitivity)
     languages = ("Common", "Draconic")
+
 
 class Orc(Race):
     name = "Orc"
@@ -466,6 +471,7 @@ class Orc(Race):
     features = (feats.Darkvision, feats.Aggressive,
                 feats.PowerfulBuild)
     languages = ("Common", "Orc")
+
 
 class PureBlood(Race):
     name = "Yuan-Ti Pureblood"

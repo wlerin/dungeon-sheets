@@ -11,17 +11,17 @@ from dungeonsheets.armor import Armor, LeatherArmor, Shield
 
 class TestCharacter(TestCase):
     """Tests for the generic character base class."""
-    
+
     def test_constructor(self):
         char = Character(name="Inara")
-    
+
     def test_hit_dice(self):
         # Test the getter
         char = Character()
         char.level = 2
         char.hit_dice_faces = 10
         self.assertEqual(char.hit_dice, '2d10')
-    
+
     def test_set_attrs(self):
         char = Character()
         char.set_attrs(name='Inara')
@@ -37,7 +37,7 @@ class TestCharacter(TestCase):
         # Check that race gets set to an object
         char.set_attrs(race='high elf')
         self.assertIsInstance(char.race, race.HighElf)
-    
+
     def test_wield_weapon(self):
         char = Character()
         char.strength = 14
@@ -48,14 +48,14 @@ class TestCharacter(TestCase):
         sword = char.weapons[0]
         self.assertTrue(isinstance(sword, Weapon))
         self.assertTrue(isinstance(sword, Shortsword))
-        self.assertEqual(sword.attack_modifier, 4) # str + prof
-        self.assertEqual(sword.damage, '1d6+2') # str
+        self.assertEqual(sword.attack_modifier, 4)  # str + prof
+        self.assertEqual(sword.damage, '1d6+2')  # str
         # Check if dexterity is used if it's higher (Finesse weapon)
         char.weapons = []
         char.dexterity = 16
         char.wield_weapon('shortsword')
         sword = char.weapons[0]
-        self.assertEqual(sword.attack_modifier, 5) # dex + prof
+        self.assertEqual(sword.attack_modifier, 5)  # dex + prof
         # Check if race weapon proficiencies are considered
         char.weapons = []
         char.weapon_proficiencies = []
@@ -63,12 +63,12 @@ class TestCharacter(TestCase):
         char.wield_weapon('shortsword')
         sword = char.weapons[0]
         self.assertEqual(sword.attack_modifier, 5)
-    
+
     def test_str(self):
         char = Wizard(name="Inara")
         self.assertEqual(str(char), 'Inara')
         self.assertEqual(repr(char), '<Wizard: Inara>')
-    
+
     def test_is_proficient(self):
         char = Character(classes=['Wizard'])
         char.weapon_proficiencies
@@ -82,7 +82,7 @@ class TestCharacter(TestCase):
         char.weapon_proficiencies = tuple()
         char.race = race.HighElf()
         self.assertTrue(char.is_proficient(sword))
-    
+
     def test_proficiencies_text(self):
         char = Character()
         char._proficiencies_text = ('hello', 'world')
@@ -99,7 +99,7 @@ class TestCharacter(TestCase):
                     "longbows", "it's", "me")
         for e in expected:
             self.assertIn(e, char.proficiencies_text.lower())
-    
+
     def test_proficiency_bonus(self):
         char = Character()
         char.level = 1
@@ -122,7 +122,7 @@ class TestCharacter(TestCase):
         self.assertEqual(char.proficiency_bonus, 6)
         char.level = 20
         self.assertEqual(char.proficiency_bonus, 6)
-    
+
     def test_spell_slots(self):
         char = Wizard()
         # Wizard level 1
@@ -135,7 +135,7 @@ class TestCharacter(TestCase):
         self.assertEqual(char.spell_slots(spell_level=0), 3)
         self.assertEqual(char.spell_slots(spell_level=1), 3)
         self.assertEqual(char.spell_slots(spell_level=2), 0)
-    
+
     def test_equip_armor(self):
         char = Character(dexterity=16)
         char.wear_armor('leather armor')
@@ -148,7 +148,7 @@ class TestCharacter(TestCase):
         # Test equipped armor with max dexterity mod_str
         char.armor.dexterity_mod_max = 1
         self.assertEqual(char.armor_class, 12)
-    
+
     def test_wield_shield(self):
         char = Character(dexterity=16)
         char.wield_shield('shield')
@@ -158,7 +158,7 @@ class TestCharacter(TestCase):
         # Try passing an Armor object directly
         char.wield_shield(Shield)
         self.assertEqual(char.armor_class, 15)
-    
+
     def test_speed(self):
         # Check that the speed pulls from the character's race
         char = Character(race='lightfoot halfling')
@@ -181,7 +181,7 @@ class DruidTestCase(TestCase):
         # self.assertEqual(len(char.spells), 1)
         self.assertEqual(len(char.spells), 2)
         self.assertIn(spells.Druidcraft(), char.spells)
-    
+
     def test_wild_shapes(self):
         char = Druid()
         # Druid level 2
@@ -199,7 +199,7 @@ class DruidTestCase(TestCase):
         char.wild_shapes = ['Wolf', 'giant eagle']
         self.assertEqual(len(char.wild_shapes), 1)
         self.assertIsInstance(char.wild_shapes[0], monsters.Wolf)
-    
+
     def test_moon_druid_wild_shapes(self):
         # Moon druid level 2 gets beasts up to CR 1
         char = Druid(level=2, wild_shapes=['Ape'], circle='moon')
@@ -209,7 +209,7 @@ class DruidTestCase(TestCase):
         char = Druid(level=9, wild_shapes=['ankylosaurus'], circle='moon')
         self.assertEqual(len(char.wild_shapes), 1)
         self.assertIsInstance(char.wild_shapes[0], monsters.Ankylosaurus)
-    
+
     def test_can_assume_shape(self):
         class Beast(monsters.Monster):
             description = 'beast'

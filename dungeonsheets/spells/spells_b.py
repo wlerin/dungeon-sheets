@@ -6,7 +6,7 @@ class Bane(Spell):
     Charisma saving throws. Whenever a target that fails this saving throw makes an 
     attack roll or a saving throw before the spell ends, the target must roll a d4 
     and subtract the number rolled from the attack roll or saving throw.
-    
+
     At Higher 
     Levels: When you cast this spell using a spelslot of 2nd level or higher, you 
     can target one aditional creature for each slot level above 1st.
@@ -49,21 +49,21 @@ class BanishingSmite(Spell):
 class Banishment(Spell):
     """You attempt to send one creature that you can see within range to another place 
     of existence. The target must succeed on a Charisma saving throw or be banished.
-     
-    
+
+
     If the target is native to the plane of existence you're on, you banish the 
     target to a harmless demiplane. While there, the target is incapacitated. The 
     target remains there until the spell ends, at which point the target reappears 
     in the space it left or in the nearest unoccupied space if that space is 
     occupied. 
-    
+
     If the target is native to a different plane of existence that the 
     one you're on, the target is banished with a faint popping noise, returning to 
     its home plane. 
     If the spell ends before 1 minute has passed, the target 
     reappears in the space it left or in the nearest unoccupied space if that space 
     is occupied. Otherwise, the target doesn't return.
-    
+
     At Higher Levels: When you 
     cast this spell using a spell slot of 5th level or higher, you can target one 
     additional creature for each slot level above 4th.
@@ -163,16 +163,16 @@ class BestowCurse(Spell):
     throw at the start of each of its turns. If it fails, it wastes its action that 
     turn doing nothing.* While the target is cursed, your attacks and spells deal an
      extra 1d8 necrotic damage to the target. 
-    
+
     A remove curse spell ends this 
     effect. At the DM's option, you may choose an alternative curse effect, but it 
     should be no more powerful than those described above.
     The DM has final say on 
     such a curse's effect.
-    
+
     At Higher Levels: If you cast this spell using a spell 
     slot of 4th level or higher, the duration is concentration, up to 10 minutes. 
-    
+
     If you use a spell slot of 5th level or higher, the duration is 8 hours. 
     If 
     you use a spell slot of 7th level or higher, the duration is 24 hours. 
@@ -198,22 +198,22 @@ class BigbysHand(Spell):
     """You create a Large hand of shimmering, translucent force in an unoccupied space 
     that you can see within range. The hand lasts for the spell's duration, and it 
     moves at your command, mimicking the movements of your own hand. 
-    
+
     The hand is 
     an object that has AC 20 and hit points equal to your hit point maximum. If it 
     drops to 0 hit points, the spell ends. It has a Strength of 26 (+8) and a 
     Dexterity of 10 (+0). The hand doesn't fill its space. 
-    
+
     When you cast the spell
      and as a bonus action on your subsequent turns, you can move the hand up to 60 
     feet and then cause one of the following effects with it.
-    
+
     Clenched Fist 
     The 
     hand strikes one creature or object within 5 feet of it. Make a melee spell 
     attack for the hand using your game statistics. On a hit, the target takes 4d8 
     force damage. 
-    
+
     Forceful Hand
     The hand attempts to push a creature within 5 feet
      of it in a direction you choose. Make a check with the hand's Strength 
@@ -222,7 +222,7 @@ class BigbysHand(Spell):
     pushes the target up to 5 feet plus a number of feet equal to five times your 
     spellcasting ability modifier. The hand moves with the target to remain within 5
      feet of it. 
-    
+
     Grasping Hand
     The hand attempts to grapple a Huge or smaller 
     creature within 5 feet of it. You use the hand's Strength score to resolve the 
@@ -230,7 +230,7 @@ class BigbysHand(Spell):
     While the hand is grappling the target, you can use a bonus action to have the 
     hand crush it. When you do so, the target takes bludgeoning damage equal to 2d6 
     + your spellcasting ability modifier. 
-    
+
     Interposing Hand
     The hand interposes 
     itself between you and a creature you choose until you give the hand a different
@@ -240,7 +240,7 @@ class BigbysHand(Spell):
     Strength score is higher than the hand's Strength score, the target can move 
     toward you through the hand's space, but that space is difficult terrain for the
      target.
-    
+
     At Higher Levels: When you cast this spell using a spell slot of 6th 
     level or higher, the damage from the clenched fist option increases by 2d8 and 
     the damage from the grasping hand increases by 2d6 for each slot level above 
@@ -265,8 +265,8 @@ class BladeBarrier(Spell):
     wall up to 60 feet in diameter, 20 feet high, and 5 feet thick. The wall 
     provides three-quarters cover to creatures behind it, and its space is difficult
      terrain. 
-    
-     When a creature enters the wall's area for the first time on a turn
+
+      When a creature enters the wall's area for the first time on a turn
      or starts its turn there, the creature must make a Dexterity saving throw. On a
      failed save, the creature takes 6 d10 slashing damage. On a successful save, 
     the creature takes half as much damage.
@@ -304,7 +304,7 @@ class Bless(Spell):
     """You bless up to three creatures of your choice within range. Whenever a target 
     makes an attack roll or a saving throw before the spell ends, the target can 
     roll a d4 and add the number rolled to the attack roll or saving throw.
-    
+
     At 
     Higher Levels: When you cast this spell using a spell slot of 2nd level or 
     higher, you can target one additional creature for each slot level above 1st.
@@ -327,14 +327,14 @@ class Blight(Spell):
     Constitution saving throw. The target takes 8d8 necrotic damage on a failed 
     save, or half as much damage on a successful one. This spell has no effect on 
     undead or constructs. 
-    
+
     If you target a plant creature or a magical plant, it 
     makes the saving throw with disadvantage, and the spell deals maximum damage to 
     it. 
-    
+
     If you target a nonmagical plant that isn't a creature, such as a tree or 
     shrub, it doesn't make a saving throw; it simply withers and dies.
-    
+
     At Higher 
     Levels: When you cast this spell using a spell slot of 5th level or higher, the 
     damage increases by 1d8 for each slot level above 4th.
@@ -356,7 +356,7 @@ class BlindingSmite(Spell):
     duration, you weapon flares with a bright light, and the attack deals an extra 
     3d8 radiant damage to the target. Additionally, the target must succeed on a 
     Constitution saving throw or be blinded until the spell ends. 
-    
+
     A creature 
     blinded by this spell makes another Constitution saving throw at the end of each
      of its turns. On a successful save, it is no longer blinded.
@@ -378,7 +378,7 @@ class Blindnessdeafness(Spell):
      to make a Constitution saving throw. If it fails, the target is either blinded 
     or deafened (your choice) for the duration. At the end of each of its turns, the
      target can make a Constitution saving throw. On a success, the spell ends.
-    
+
     At 
     Higher Levels: When you cast this spell using a spell slot of 3rd level or 
     higher, you can target one additional creature for each slot level above 2nd.
@@ -400,14 +400,14 @@ class Blink(Spell):
     roll of 11 or higher, you vanish from your current plane of existence and appear
      in the Etheral Plane (the spell fails and the casting is wasted if you were 
     already on that plane). 
-    
+
     At the start of you next turn, and when the spell ends
      if you are on the Etheral Plane, you return to an unoccupied space of your 
     choice that you can see within 10 feet of the space you vanished from. If no 
     unoccupied space is available within that rang, you appear in the nearest 
     unoccupied space (chosen at random if more that one space is equally near). You 
     can dismiss this spell as an action. 
-    
+
     While on the Ethereal Plane, you can see 
     and hear the plane you originated from, which is cast in shades of gray, and you
      can't see anything more than 60 feet away.You can only affect and be affected 
@@ -455,7 +455,7 @@ class BonesOfTheEarth(Spell):
     If a 
     pillar is created under a creature, that creature must succeed on a Dexterity 
     saving throw or be lifted by the pillar. A creature can choose to fail the save.
-    
+
     If a pillar is prevented from reaching its full height because of a ceiling or 
     other obstacle, a creature on the pillar takes 6d6 bludgeoning damage and is 
     restrained, pinched between the pillar and the obstacle. The restrained creature
@@ -487,7 +487,7 @@ class BoomingBlade(Spell):
     willingly moves be- fore then, it immediately takes 1d8 thunder damage, and the 
     spell ends.
     This spell's damage increases when you reach higher levels.
-    
+
     At 
     Higher Levels: At 5th level, the melee attack deals an extra 1d8 thunder damage 
     to the target, and the damage the target takes for moving increases to 2d8. Both
@@ -511,7 +511,7 @@ class BrandingSmite(Spell):
     2d6 radiant damage to the target, which becomes visible if it is invisible, and 
     the target sheds dim light in a 5-foot radius and can't become invisible until 
     the spell ends.
-    
+
     At Higher Levels: When you cast this spell using a spell slot 
     of 3rd level or higher, the extra damage increases by 1d6 for each slot level 
     above 2nd.
@@ -533,10 +533,10 @@ class BurningHands(Spell):
     flames shoots forth from your outstretched fingertips. Each creature in a 
     15-foot cone must make a Dexterity saving throw. A creature takes 3d6 fire 
     damage on a failed save, or half as much damage on a successful one. 
-    
+
     The fire 
     ignites any flammable objects in the area that aren't being worn or carried.
-    
+
     At
      Higher Levels: When you cast this spell using a spell slot of 2nd level or 
     higher, the damage increases by 1d6 for each slot level above 1st.
@@ -551,5 +551,3 @@ class BurningHands(Spell):
     ritual = False
     magic_school = "Evocation"
     classes = ('Sorcerer', 'Wizard')
-
-

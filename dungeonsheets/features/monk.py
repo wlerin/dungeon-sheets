@@ -103,7 +103,7 @@ class FlurryOfBlows(Feature):
     name = "Flurry of Blows"
     source = "Monk"
 
-    
+
 class PatientDefense(Feature):
     """You can spend 1 ki point to take the Dodge action as a bonus action on your
     turn
@@ -213,7 +213,7 @@ class KiEmpoweredStrikes(Feature):
     name = "Ki-Empowered Strikes"
     source = "Monk"
 
-    
+
 class StillnessOfMind(Feature):
     """Starting at 7th level, you can use your action to end one effect on
     yourself that is causing you to be charmed or frightened
@@ -272,7 +272,7 @@ class EmptyBody(Feature):
     """
     name = "Empty Body"
     source = "Monk"
-        
+
 
 class PerfectSelf(Feature):
     """At 20th level, when you roll for initiative and have no ki points
@@ -402,7 +402,7 @@ class DiscipleOfTheElements(Feature):
     discipline. 
 
     Add your chosen disciplines under "features" in your .py file
-    
+
     **Casting Elemental Spells**: Some elemental disciplines allow you to cast
     spells. See chapter 10 for the general rules of spellcasting. To cast one o
     f these spells, you use its casting time and other rules, but you don't
@@ -467,7 +467,7 @@ class BreathOfWinter(Feature):
 
 class ClenchOfTheNorthWind(Feature):
     """You can spend 3 ki points to cast hold person.
-    
+
     **Prerequisite**: 6th Level
 
     """
@@ -485,7 +485,7 @@ class EternalMountainDefense(Feature):
     source = "Monk (Way of the Four Elements)"
     spells_known = (spells.Stoneskin,)
 
-    
+
 class FangsOfTheFireSnake(Feature):
     """When you use the Attack action on your turn, you can spend 1 ki point to
     cause tendrils of flame to stretch out from your fists and feet. Your reach
@@ -672,7 +672,7 @@ class MasteryOfDeath(Feature):
     """
     name = "Mastery of Death"
     source = "Monk (Way of the Sun Soul)"
-        
+
 
 class TouchOfTheLongDeath(Feature):
     """Starting at 17th level, your touch can channel the energy of death into a
@@ -684,7 +684,7 @@ class TouchOfTheLongDeath(Feature):
     """
     name = "Touch of the Long Death"
     source = "Monk (Way of the Sun Soul)"
-        
+
 
 # Way of the Sun Soul
 class RadiantSunBolt(Feature):
@@ -706,7 +706,7 @@ class RadiantSunBolt(Feature):
     def __init__(self, owner=None):
         super().__init__(owner=owner)
         self.owner.wield_weapon("sun bolt")
-    
+
 
 class SearingArcStrike(Feature):
     """At 6th level, you gain the ability to channel your ki into searing waves of
@@ -751,7 +751,7 @@ class SunShield(Feature):
     """
     name = "Sun Shield"
     source = "Monk (Way of the Sun Soul)"
-        
+
 
 # Way of the Drunken Master
 class DrunkenTechnique(Feature):
@@ -883,4 +883,3 @@ class UnerringAccuracy(Feature):
     """
     name = "Unerring Accuracy"
     source = "Monk (Way of the Kensei)"
-

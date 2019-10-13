@@ -58,7 +58,7 @@ class LayOnHands(Feature):
 class PaladinFightingStyle(FeatureSelector):
     """
     Select a Fighting Style by choosing in feature_choices:
- 
+
     defense
 
     dueling
@@ -149,7 +149,7 @@ class CleansingTouch(Feature):
     """
     _name = "Cleansing Touch"
     source = "Paladin"
-    
+
     @property
     def name(self):
         num_uses = max(1, 1+self.owner.charisma.modifier)
@@ -295,7 +295,7 @@ class ProtectiveSpirit(Feature):
 
 class EmissaryOfRedemption(Feature):
     """At 20th level, you become an avatar of peace, which gives you two benefits:
-    
+
     --You have resistance to all damage dealt by other crea- tures (their
     attacks, spells, and other effects).
 

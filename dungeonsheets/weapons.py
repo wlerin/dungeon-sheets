@@ -17,12 +17,12 @@ class Weapon():
     @classmethod
     def improved_version(cls, bonus):
         bonus = int(bonus)
-        
+
         class NewWeapon(cls):
             name = f'+{bonus} ' + cls.name
             damage_bonus = bonus
             attack_bonus = bonus
-            
+
         return NewWeapon
 
     def apply_features(self):
@@ -41,7 +41,7 @@ class Weapon():
                            self.wielder.dexterity.modifier)
             else:
                 return getattr(self.wielder, self.ability).modifier
-        
+
     @property
     def attack_modifier(self):
         self.apply_features()
@@ -51,7 +51,7 @@ class Weapon():
             if self.wielder.is_proficient(self):
                 mod += self.wielder.proficiency_bonus
         return mod
-    
+
     @property
     def damage(self):
         self.apply_features()
@@ -86,7 +86,7 @@ class SimpleWeapon(Weapon):
 
 class MartialWeapon(Weapon):
     name = "Martial Weapons"
-    
+
 
 class Club(SimpleWeapon, MeleeWeapon):
     name = "Club"
@@ -473,7 +473,7 @@ class Net(MartialWeapon, RangedWeapon):
     properties = "Special, thrown (range 5/15)"
     ability = 'strength'
 
-    
+
 class Unarmed(MeleeWeapon):
     name = "Unarmed"
     cost = "0 gp"
@@ -493,7 +493,7 @@ class SunBolt(RangedWeapon):
     properties = "(range 20/60)"
     ability = 'dexterity'
 
-    
+
 # Custom weapons
 class HeavyPunch(MeleeWeapon):
     base_damage = "1d4"
@@ -537,8 +537,8 @@ class Firearm(RangedWeapon):
     name = 'Firearm'
     ability = 'dexterity'
     damage_type = 'p'
-    
-    
+
+
 class Blunderbuss(Firearm):
     name = 'Blunderbuss'
     base_damage = '2d8'
@@ -554,7 +554,7 @@ class Pistol(Firearm):
     weight = 3
     properties = "Ammunition (range 60/240), Reload 4, Misfire 1"
 
-    
+
 class Musket(Firearm):
     name = 'Musket'
     base_damage = '1d12'

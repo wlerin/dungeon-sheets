@@ -2,6 +2,8 @@ from .features import Feature, FeatureSelector
 from .ranger import Dueling, TwoWeaponFighting
 
 # PHB
+
+
 class BardicInspiration(Feature):
     """You can inspire others through stirring words or music. To do so, you use a
     bonus action on your turn to choose one creature other than yourself within
@@ -176,7 +178,7 @@ class AdditionalMagicalSecrets(Feature):
     name = "Additional Magical Secrets"
     source = "Bard (College of Lore)"
 
-    
+
 class PeerlessSkill(Feature):
     """Starting at 14th level, when you make an ability check, you can expend one
     use of Bardic Inspiration. Roll a Bardic Inspiration die and add the number
@@ -245,7 +247,7 @@ class MantleOfInspiration(Feature):
         level = self.owner.Bard.level
         hp = 5 + 3*(level // 5)
         return self._name + " ({:d}HP)".format(hp)
-    
+
 
 class EnthrallingPerformance(Feature):
     """Starting at 3rd level, you can charge your performance with seductive, fey
@@ -383,7 +385,7 @@ class PsychicBlades(Feature):
     so only once per round on your turn. The psychic damage increases when you
     reach certain levels in this class, increasing to 3d6 at 5th level, 5d6
     at 10th level, and 8d6 at 15th level.
-    
+
     """
     _name = "Psychic Blades"
     source = "Bard (College of Whispers)"
@@ -410,7 +412,7 @@ class WordsOfTerror(Feature):
     choice. The target is frightened in this way for 1 hour, until it is at-
     tacked or damaged, or until it witnesses its allies being attacked or
     damaged.
-    
+
     If the target succeeds on its saving throw, the target has no hint that you
     tried to frighten it. Once you use this feature, you can't use it again
     until you finish a short or long rest.

@@ -69,7 +69,7 @@ gp = 0
 pp = 0
 
 # TODO: Put your equipped weapons and armor here
-weapons = ('handaxe', 'greatsword') # Example: ('shortsword', 'longsword')
+weapons = ('handaxe', 'greatsword')  # Example: ('shortsword', 'longsword')
 magic_items = ()  # Example: ('ring of protection',)
 armor = ""  # Eg "light leather armor"
 shield = ""  # Eg "shield"
