@@ -474,7 +474,7 @@ class Net(MartialWeapon, RangedWeapon):
     ability = 'strength'
 
 
-class Unarmed(MeleeWeapon):
+class Unarmed(SimpleWeapon):
     name = "Unarmed"
     cost = "0 gp"
     base_damage = "1"
